@@ -36,7 +36,14 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.5"
+    "popper.js": "^1.12.5",
+    "react": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-redux-router": "0.0.10",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6"
   }
 }
