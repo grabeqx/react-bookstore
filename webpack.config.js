@@ -7,8 +7,7 @@ var webpack = require('webpack');
 module.exports = {
     devtool: 'source-map',
     entry: {
-        client: path.join(__dirname,'/src/client/client.jsx'),
-        admin: path.join(__dirname,'/src/client/admin.jsx'),
+        index: path.join(__dirname,'/src/index.jsx'),
         vendor: path.join(__dirname,'/src/vendor.js')
     },
     output: {

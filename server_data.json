@@ -81,6 +81,7 @@
             "desc": "Division of joint capsule, ligament, or cartilage, other specified sites",
             "category_id": 1,
             "price": 167,
+            "quantity": 10,
             "release_date": "07/24/2017"
         },
         {
@@ -100,6 +101,7 @@
             "desc": "Limb shortening procedures, unspecified site",
             "category_id": 2,
             "price": 119,
+            "quantity": 10,
             "release_date": "05/28/2017"
         },
         {
@@ -119,6 +121,7 @@
             "desc": "Other partial salpingectomy",
             "category_id": 3,
             "price": 144,
+            "quantity": 10,
             "release_date": "12/11/2016"
         },
         {
@@ -138,6 +141,7 @@
             "desc": "Arthroscopy, elbow",
             "category_id": 4,
             "price": 118,
+            "quantity": 20,
             "release_date": "09/26/2017"
         },
         {
@@ -157,6 +161,7 @@
             "desc": "Biopsy of external ear",
             "category_id": 3,
             "price": 85,
+            "quantity": 1,
             "release_date": "10/11/2016"
         },
         {
@@ -176,6 +181,7 @@
             "desc": "Multiple segmental resection of small intestine",
             "category_id": 1,
             "price": 97,
+            "quantity": 5,
             "release_date": "03/23/2017"
         },
         {
@@ -195,6 +201,7 @@
             "desc": "Restoration of tooth by inlay",
             "category_id": 3,
             "price": 137,
+            "quantity": 12,
             "release_date": "10/24/2016"
         },
         {
@@ -214,6 +221,7 @@
             "desc": "Control of (postoperative) hemorrhage of prostate",
             "category_id": 2,
             "price": 74,
+            "quantity": 1,
             "release_date": "08/20/2017"
         },
         {
@@ -233,6 +241,7 @@
             "desc": "Revision of extraocular muscle surgery",
             "category_id": 2,
             "price": 50,
+            "quantity": 15,
             "release_date": "07/27/2017"
         },
         {
@@ -252,6 +261,7 @@
             "desc": "Other orthodontic operation",
             "category_id": 4,
             "price": 109,
+            "quantity": 16,
             "release_date": "01/27/2017"
         },
         {
@@ -271,6 +281,7 @@
             "desc": "Removal of foreign body without incision from lower limb, except foot",
             "category_id": 5,
             "price": 84,
+            "quantity": 30,
             "release_date": "12/13/2016"
         },
         {
@@ -290,6 +301,7 @@
             "desc": "Deep inferior epigastric artery perforator (DIEP) flap, free",
             "category_id": 3,
             "price": 72,
+            "quantity": 40,
             "release_date": "07/25/2017"
         },
         {
@@ -309,6 +321,7 @@
             "desc": "Advancement of pedicle graft",
             "category_id": 3,
             "price": 149,
+            "quantity": 10,
             "release_date": "03/19/2017"
         },
         {
@@ -328,6 +341,7 @@
             "desc": "Other repair of nasal sinus",
             "category_id": 1,
             "price": 100,
+            "quantity": 10,
             "release_date": "10/18/2016"
         },
         {
@@ -347,6 +361,7 @@
             "desc": "Other permanent ileostomy",
             "category_id": 3,
             "price": 67,
+            "quantity": 10,
             "release_date": "12/25/2016"
         },
         {
@@ -366,6 +381,7 @@
             "desc": "Internal fixation of bone without fracture reduction, radius and ulna",
             "category_id": 5,
             "price": 196,
+            "quantity": 10,
             "release_date": "07/01/2017"
         },
         {
@@ -385,6 +401,7 @@
             "desc": "Other diagnostic procedures on uterus and supporting structures",
             "category_id": 3,
             "price": 153,
+            "quantity": 10,
             "release_date": "02/14/2017"
         },
         {
@@ -404,6 +421,7 @@
             "desc": "Replacement of cast on upper limb",
             "category_id": 3,
             "price": 67,
+            "quantity": 10,
             "release_date": "06/13/2017"
         },
         {
@@ -423,6 +441,7 @@
             "desc": "Advancement of one extraocular muscle",
             "category_id": 4,
             "price": 56,
+            "quantity": 10,
             "release_date": "02/15/2017"
         },
         {
@@ -442,6 +461,7 @@
             "desc": "P32 and other tracer studies of eye",
             "category_id": 5,
             "price": 57,
+            "quantity": 10,
             "release_date": "06/20/2017"
         },
         {
@@ -461,6 +481,7 @@
             "desc": "Pelvic opaque dye contrast radiography",
             "category_id": 5,
             "price": 178,
+            "quantity": 10,
             "release_date": "04/01/2017"
         },
         {
@@ -480,6 +501,7 @@
             "desc": "Open heart valvuloplasty of pulmonary valve without replacement",
             "category_id": 3,
             "price": 56,
+            "quantity": 10,
             "release_date": "06/21/2017"
         },
         {
@@ -499,6 +521,7 @@
             "desc": "Exploratory verbal psychotherapy",
             "category_id": 3,
             "price": 117,
+            "quantity": 10,
             "release_date": "03/26/2017"
         },
         {
@@ -518,6 +541,7 @@
             "desc": "Repair of symblepharon with free graft",
             "category_id": 2,
             "price": 103,
+            "quantity": 10,
             "release_date": "01/25/2017"
         },
         {
@@ -537,6 +561,7 @@
             "desc": "Repair of endocardial cushion defect with prosthesis",
             "category_id": 1,
             "price": 65,
+            "quantity": 10,
             "release_date": "01/25/2017"
         },
         {
@@ -556,6 +581,7 @@
             "desc": "Insertion or replacement of facet replacement device(s)",
             "category_id": 5,
             "price": 145,
+            "quantity": 10,
             "release_date": "08/30/2017"
         },
         {
@@ -575,6 +601,7 @@
             "desc": "Exteriorization of large intestine",
             "category_id": 3,
             "price": 54,
+            "quantity": 10,
             "release_date": "01/08/2017"
         },
         {
@@ -594,6 +621,7 @@
             "desc": "Removal of surgically implanted material from posterior segment of eye",
             "category_id": 1,
             "price": 129,
+            "quantity": 10,
             "release_date": "01/07/2017"
         },
         {
@@ -613,6 +641,7 @@
             "desc": "Aortography",
             "category_id": 1,
             "price": 135,
+            "quantity": 10,
             "release_date": "02/28/2017"
         },
         {
@@ -632,6 +661,7 @@
             "desc": "Amputation through hand",
             "category_id": 2,
             "price": 105,
+            "quantity": 10,
             "release_date": "02/19/2017"
         },
         {
@@ -651,6 +681,7 @@
             "desc": "Refusion of dorsal and dorsolumbar spine, posterior column, posterior technique",
             "category_id": 4,
             "price": 190,
+            "quantity": 10,
             "release_date": "07/23/2017"
         },
         {
@@ -670,6 +701,7 @@
             "desc": "Insertion of tissue expander",
             "category_id": 2,
             "price": 200,
+            "quantity": 10,
             "release_date": "05/14/2017"
         },
         {
@@ -689,6 +721,7 @@
             "desc": "Application of external fixator device, scapula, clavicle, and thorax [ribs and sternum]",
             "category_id": 5,
             "price": 106,
+            "quantity": 10,
             "release_date": "10/02/2017"
         },
         {
@@ -708,6 +741,7 @@
             "desc": "Other diagnostic procedures on blood vessels",
             "category_id": 3,
             "price": 157,
+            "quantity": 10,
             "release_date": "12/19/2016"
         },
         {
@@ -727,6 +761,7 @@
             "desc": "Destruction of chorioretinal lesion by cryotherapy",
             "category_id": 1,
             "price": 159,
+            "quantity": 10,
             "release_date": "05/10/2017"
         },
         {
@@ -746,6 +781,7 @@
             "desc": "Other incision of perirenal or periureteral tissue",
             "category_id": 1,
             "price": 175,
+            "quantity": 10,
             "release_date": "09/23/2017"
         },
         {
@@ -765,6 +801,7 @@
             "desc": "Other skeletal traction",
             "category_id": 1,
             "price": 50,
+            "quantity": 10,
             "release_date": "10/16/2016"
         },
         {
@@ -784,6 +821,7 @@
             "desc": "Excision of semilunar cartilage of knee",
             "category_id": 3,
             "price": 95,
+            "quantity": 10,
             "release_date": "12/27/2016"
         },
         {
@@ -803,6 +841,7 @@
             "desc": "Symphysiotomy for horseshoe kidney",
             "category_id": 4,
             "price": 148,
+            "quantity": 10,
             "release_date": "08/14/2017"
         },
         {
@@ -822,6 +861,7 @@
             "desc": "Uterine artery embolization [UAE] with coils",
             "category_id": 3,
             "price": 98,
+            "quantity": 10,
             "release_date": "07/25/2017"
         },
         {
@@ -841,6 +881,7 @@
             "desc": "Other and open repair of diaphragmatic hernia, with thoracic approach",
             "category_id": 3,
             "price": 111,
+            "quantity": 10,
             "release_date": "10/08/2016"
         },
         {
@@ -860,6 +901,7 @@
             "desc": "Repair of rupture of eyeball",
             "category_id": 4,
             "price": 85,
+            "quantity": 10,
             "release_date": "02/25/2017"
         },
         {
@@ -879,6 +921,7 @@
             "desc": "Excision or destruction of lesion of sclera",
             "category_id": 1,
             "price": 158,
+            "quantity": 10,
             "release_date": "07/06/2017"
         },
         {
@@ -898,6 +941,7 @@
             "desc": "Extracorporeal hepatic assistance",
             "category_id": 5,
             "price": 55,
+            "quantity": 10,
             "release_date": "09/02/2017"
         },
         {
@@ -917,6 +961,7 @@
             "desc": "Open biopsy of bladder",
             "category_id": 2,
             "price": 110,
+            "quantity": 10,
             "release_date": "07/18/2017"
         },
         {
@@ -936,6 +981,7 @@
             "desc": "Insertion of choledochohepatic tube for decompression",
             "category_id": 4,
             "price": 83,
+            "quantity": 10,
             "release_date": "09/28/2017"
         },
         {
@@ -955,6 +1001,7 @@
             "desc": "Local perfusion of kidney",
             "category_id": 2,
             "price": 78,
+            "quantity": 10,
             "release_date": "06/10/2017"
         },
         {
@@ -974,6 +1021,7 @@
             "desc": "Localized perfusion of liver",
             "category_id": 5,
             "price": 89,
+            "quantity": 10,
             "release_date": "10/19/2016"
         },
         {
@@ -993,6 +1041,7 @@
             "desc": "Endoscopic excision or destruction of lesion or tissue of pancreatic duct",
             "category_id": 5,
             "price": 115,
+            "quantity": 10,
             "release_date": "11/12/2016"
         },
         {
@@ -1012,6 +1061,7 @@
             "desc": "Fat graft to breast",
             "category_id": 2,
             "price": 197,
+            "quantity": 10,
             "release_date": "11/01/2016"
         }
     ]
