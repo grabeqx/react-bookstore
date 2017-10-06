@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
-import Routing from './Routing';
 
 import Admin from './admin/Admin';
 import Client from './client/Client';
