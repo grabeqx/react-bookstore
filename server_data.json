@@ -82,6 +82,7 @@
             "category_id": 1,
             "price": 167,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/24/2017"
         },
         {
@@ -102,6 +103,7 @@
             "category_id": 2,
             "price": 119,
             "quantity": 10,
+            "available": 1,
             "release_date": "05/28/2017"
         },
         {
@@ -122,6 +124,7 @@
             "category_id": 3,
             "price": 144,
             "quantity": 10,
+            "available": 1,
             "release_date": "12/11/2016"
         },
         {
@@ -142,6 +145,7 @@
             "category_id": 4,
             "price": 118,
             "quantity": 20,
+            "available": 1,
             "release_date": "09/26/2017"
         },
         {
@@ -162,6 +166,7 @@
             "category_id": 3,
             "price": 85,
             "quantity": 1,
+            "available": 1,
             "release_date": "10/11/2016"
         },
         {
@@ -182,6 +187,7 @@
             "category_id": 1,
             "price": 97,
             "quantity": 5,
+            "available": 1,
             "release_date": "03/23/2017"
         },
         {
@@ -202,6 +208,7 @@
             "category_id": 3,
             "price": 137,
             "quantity": 12,
+            "available": 1,
             "release_date": "10/24/2016"
         },
         {
@@ -222,6 +229,7 @@
             "category_id": 2,
             "price": 74,
             "quantity": 1,
+            "available": 1,
             "release_date": "08/20/2017"
         },
         {
@@ -242,6 +250,7 @@
             "category_id": 2,
             "price": 50,
             "quantity": 15,
+            "available": 1,
             "release_date": "07/27/2017"
         },
         {
@@ -262,6 +271,7 @@
             "category_id": 4,
             "price": 109,
             "quantity": 16,
+            "available": 1,
             "release_date": "01/27/2017"
         },
         {
@@ -282,6 +292,7 @@
             "category_id": 5,
             "price": 84,
             "quantity": 30,
+            "available": 1,
             "release_date": "12/13/2016"
         },
         {
@@ -302,6 +313,7 @@
             "category_id": 3,
             "price": 72,
             "quantity": 40,
+            "available": 1,
             "release_date": "07/25/2017"
         },
         {
@@ -322,6 +334,7 @@
             "category_id": 3,
             "price": 149,
             "quantity": 10,
+            "available": 1,
             "release_date": "03/19/2017"
         },
         {
@@ -342,6 +355,7 @@
             "category_id": 1,
             "price": 100,
             "quantity": 10,
+            "available": 1,
             "release_date": "10/18/2016"
         },
         {
@@ -362,6 +376,7 @@
             "category_id": 3,
             "price": 67,
             "quantity": 10,
+            "available": 1,
             "release_date": "12/25/2016"
         },
         {
@@ -382,6 +397,7 @@
             "category_id": 5,
             "price": 196,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/01/2017"
         },
         {
@@ -402,6 +418,7 @@
             "category_id": 3,
             "price": 153,
             "quantity": 10,
+            "available": 1,
             "release_date": "02/14/2017"
         },
         {
@@ -422,6 +439,7 @@
             "category_id": 3,
             "price": 67,
             "quantity": 10,
+            "available": 1,
             "release_date": "06/13/2017"
         },
         {
@@ -442,6 +460,7 @@
             "category_id": 4,
             "price": 56,
             "quantity": 10,
+            "available": 1,
             "release_date": "02/15/2017"
         },
         {
@@ -462,6 +481,7 @@
             "category_id": 5,
             "price": 57,
             "quantity": 10,
+            "available": 1,
             "release_date": "06/20/2017"
         },
         {
@@ -482,6 +502,7 @@
             "category_id": 5,
             "price": 178,
             "quantity": 10,
+            "available": 1,
             "release_date": "04/01/2017"
         },
         {
@@ -502,6 +523,7 @@
             "category_id": 3,
             "price": 56,
             "quantity": 10,
+            "available": 1,
             "release_date": "06/21/2017"
         },
         {
@@ -522,6 +544,7 @@
             "category_id": 3,
             "price": 117,
             "quantity": 10,
+            "available": 1,
             "release_date": "03/26/2017"
         },
         {
@@ -542,6 +565,7 @@
             "category_id": 2,
             "price": 103,
             "quantity": 10,
+            "available": 1,
             "release_date": "01/25/2017"
         },
         {
@@ -562,6 +586,7 @@
             "category_id": 1,
             "price": 65,
             "quantity": 10,
+            "available": 1,
             "release_date": "01/25/2017"
         },
         {
@@ -582,6 +607,7 @@
             "category_id": 5,
             "price": 145,
             "quantity": 10,
+            "available": 1,
             "release_date": "08/30/2017"
         },
         {
@@ -602,6 +628,7 @@
             "category_id": 3,
             "price": 54,
             "quantity": 10,
+            "available": 1,
             "release_date": "01/08/2017"
         },
         {
@@ -622,6 +649,7 @@
             "category_id": 1,
             "price": 129,
             "quantity": 10,
+            "available": 1,
             "release_date": "01/07/2017"
         },
         {
@@ -642,6 +670,7 @@
             "category_id": 1,
             "price": 135,
             "quantity": 10,
+            "available": 1,
             "release_date": "02/28/2017"
         },
         {
@@ -662,6 +691,7 @@
             "category_id": 2,
             "price": 105,
             "quantity": 10,
+            "available": 1,
             "release_date": "02/19/2017"
         },
         {
@@ -682,6 +712,7 @@
             "category_id": 4,
             "price": 190,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/23/2017"
         },
         {
@@ -702,6 +733,7 @@
             "category_id": 2,
             "price": 200,
             "quantity": 10,
+            "available": 1,
             "release_date": "05/14/2017"
         },
         {
@@ -722,6 +754,7 @@
             "category_id": 5,
             "price": 106,
             "quantity": 10,
+            "available": 1,
             "release_date": "10/02/2017"
         },
         {
@@ -742,6 +775,7 @@
             "category_id": 3,
             "price": 157,
             "quantity": 10,
+            "available": 1,
             "release_date": "12/19/2016"
         },
         {
@@ -762,6 +796,7 @@
             "category_id": 1,
             "price": 159,
             "quantity": 10,
+            "available": 1,
             "release_date": "05/10/2017"
         },
         {
@@ -782,6 +817,7 @@
             "category_id": 1,
             "price": 175,
             "quantity": 10,
+            "available": 1,
             "release_date": "09/23/2017"
         },
         {
@@ -802,6 +838,7 @@
             "category_id": 1,
             "price": 50,
             "quantity": 10,
+            "available": 1,
             "release_date": "10/16/2016"
         },
         {
@@ -822,6 +859,7 @@
             "category_id": 3,
             "price": 95,
             "quantity": 10,
+            "available": 1,
             "release_date": "12/27/2016"
         },
         {
@@ -842,6 +880,7 @@
             "category_id": 4,
             "price": 148,
             "quantity": 10,
+            "available": 1,
             "release_date": "08/14/2017"
         },
         {
@@ -862,6 +901,7 @@
             "category_id": 3,
             "price": 98,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/25/2017"
         },
         {
@@ -882,6 +922,7 @@
             "category_id": 3,
             "price": 111,
             "quantity": 10,
+            "available": 1,
             "release_date": "10/08/2016"
         },
         {
@@ -902,6 +943,7 @@
             "category_id": 4,
             "price": 85,
             "quantity": 10,
+            "available": 1,
             "release_date": "02/25/2017"
         },
         {
@@ -922,6 +964,7 @@
             "category_id": 1,
             "price": 158,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/06/2017"
         },
         {
@@ -942,6 +985,7 @@
             "category_id": 5,
             "price": 55,
             "quantity": 10,
+            "available": 1,
             "release_date": "09/02/2017"
         },
         {
@@ -962,6 +1006,7 @@
             "category_id": 2,
             "price": 110,
             "quantity": 10,
+            "available": 1,
             "release_date": "07/18/2017"
         },
         {
@@ -982,6 +1027,7 @@
             "category_id": 4,
             "price": 83,
             "quantity": 10,
+            "available": 1,
             "release_date": "09/28/2017"
         },
         {
@@ -1002,6 +1048,7 @@
             "category_id": 2,
             "price": 78,
             "quantity": 10,
+            "available": 1,
             "release_date": "06/10/2017"
         },
         {
@@ -1022,6 +1069,7 @@
             "category_id": 5,
             "price": 89,
             "quantity": 10,
+            "available": 1,
             "release_date": "10/19/2016"
         },
         {
@@ -1042,6 +1090,7 @@
             "category_id": 5,
             "price": 115,
             "quantity": 10,
+            "available": 1,
             "release_date": "11/12/2016"
         },
         {
@@ -1062,6 +1111,7 @@
             "category_id": 2,
             "price": 197,
             "quantity": 10,
+            "available": 1,
             "release_date": "11/01/2016"
         }
     ]

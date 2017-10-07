@@ -2,9 +2,8 @@ import React from 'react';
 import { Route, Switch } from 'react-router'
 
 import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import Sidebar from '../components/Sidebar';
 import Root from '../components/Root';
-
 
 const RootContainer = (props) => {
     return (
@@ -18,7 +17,7 @@ const RootContainer = (props) => {
                 <aside className="col-sm-2">
                     <Sidebar />
                 </aside>
-                <main className="col-sm-10">
+                <main className="col-sm-10 main">
                     <Root {...props} />
                 </main>
             </div>

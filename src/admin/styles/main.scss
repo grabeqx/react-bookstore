@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=latin-ext');
+// variables
+$darkColor: #1e2a31;
+$bgColor: #22313a;
+$bgColorSecundary: #2b3942;
+$inputBg: #e2e2e2;
+$inputTextColor: #161d21;
+$textColor: #e2e2e2;
+$textColorSecundary: #8a9ba1;
+$btnColor: #7f7f7f;
+
+$fontFamily: 'Roboto', sans-serif;
+
+body {
+    background: $bgColor;
+    font-family: $fontFamily;
+    color: $textColor;
+    font-weight: 300;
+}
+.button {
+    background: $btnColor;
+    color: $darkColor;
+    display: inline-block;
+    line-height: normal;
+    padding: 2px 30px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    &:hover {
+        color: $textColor;
+        background: $darkColor;
+        text-decoration: none;
+    }
+}
+.navbar {
+    background: $darkColor;
+}
+.sidebar {
+    .sidebarTitle {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+    .sidebarList {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        li {
+            text-align: left;
+            padding: 5px 0px 5px 10%;
+            a {
+                color: $textColorSecundary;
+            }
+        }
+    }
+}
+.search {
+    width: 100%;
+    margin: 0px 0px 2rem;
+    padding: .3rem .5rem;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    background: $inputBg;
+    color: $inputTextColor;
+}
+.tableContainer {
+    box-sizing: border-box;
+    padding: 1rem;
+    background: $bgColorSecundary;
+    border-radius: 3px;
+    table {
+        th {
+            border-top: none;
+            border-bottom: 2px solid $darkColor;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+        }
+        td {
+            border-bottom: 1px solid $darkColor;
+            text-align: center;
+            &:last-of-type {
+                width: 100px;
+            }
+        }
+    }
+}

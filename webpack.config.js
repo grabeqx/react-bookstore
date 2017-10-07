@@ -8,7 +8,9 @@ module.exports = {
     devtool: 'source-map',
     entry: {
         index: path.join(__dirname,'/src/index.jsx'),
-        vendor: path.join(__dirname,'/src/vendor.js')
+        vendor: path.join(__dirname,'/src/vendor.js'),
+        vendorAdmin: path.join(__dirname,'/src/admin/vendorAdmin.js'),
+        vendorClient: path.join(__dirname,'/src/client/vendorClient.js'),
     },
     output: {
         path: path.join(__dirname, '/dist'),
@@ -19,7 +21,7 @@ module.exports = {
         extensions : ['.js', '.jsx']
     },
     plugins: [
-        new ExtractTextWebpackPlugin('style.css'),
+        new ExtractTextWebpackPlugin('[name].css'),
 		new HtmlWebpackPlugin({
 			template: path.join(__dirname, '/public/index.html'),
 			inject: 'body',

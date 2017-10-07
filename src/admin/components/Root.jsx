@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router'
-import RouterConstants from '../constants/RouterConstants.js';
 
-import ProductsList from '../containers/ProductsList';
-import CategoryList from '../containers/CategoryList';
+import RouterConstants from '../constants/RouterConstants.js';
+import ProductsList from './ProductsList'
+import CategoryList from './CategoryList';
 
 class Root extends React.Component {
     constructor(props) {
