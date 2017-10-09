@@ -1,7 +1,6 @@
 require('font-awesome/css/font-awesome.css');
 require('bootstrap');
 require('bootstrap/dist/css/bootstrap.min.css');
-require('./admin/styles/main.scss');
 
 import axios from 'axios';
 import React from 'react';

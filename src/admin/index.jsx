@@ -6,15 +6,8 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import RootContainer from './containers/RootContainer';
 
-
-const Admin = function () {
-    return (
-        <Provider store={store}>
-            <ConnectedRouter history={history}>
-                <Route path="/admin" component={RootContainer} />
-            </ConnectedRouter>
-        </Provider>
-    )
-}
-
-export default Admin;
+ReactDOM.render(<Provider store={store}>
+    <ConnectedRouter history={history}>
+        <Route path="/admin" component={RootContainer} />
+    </ConnectedRouter>
+</Provider>, document.querySelector('#root'))

@@ -7,13 +7,13 @@ var webpack = require('webpack');
 module.exports = {
     devtool: 'source-map',
     entry: {
-        index: path.join(__dirname,'/src/index.jsx'),
-        vendor: path.join(__dirname,'/src/vendor.js')
+        index: path.join(__dirname,'/index.jsx'),
+        vendor: path.join(__dirname,'/vendor.js')
     },
     output: {
         path: path.join(__dirname, '/dist'),
         filename: '[name].bundle.js',
-        publicPath: 'http://localhost/'
+        publicPath: 'http://localhost:81/'
     },
     resolve: {
         extensions : ['.js', '.jsx']
@@ -67,7 +67,7 @@ module.exports = {
     },
     devServer: {
         host: 'localhost',
-        port: 80,
+        port: 81,
         hot: true,
         historyApiFallback: true
     }
