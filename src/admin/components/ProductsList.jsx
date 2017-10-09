@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Route } from 'react-router';
+import { Route, Switch } from 'react-router';
 
 import { getProducts } from '../actions/Api.actions';
+import RouteDefaultListPage from './RouteDefaultListPage';
 import ProductListContainer from '../containers/ProductListContainer';
 import RouterConstants from '../constants/RouterConstants.js';
-import List from '../containers/List';
 import Edit from './Edit';
 
 class ProductsList extends React.Component {
@@ -22,12 +22,10 @@ class ProductsList extends React.Component {
 
     render() {
         return (
-            <ProductListContainer>
-                <List 
-                    items={this.props.books} 
-                    columns={this.state.columns}
-                />
-            </ProductListContainer>
+            <Switch>
+                <Route exact path={this.props.match.path} render={RouteDefaultListPage(ProductListContainer, this.state.columns, this.props)} />
+                <Route path={`${this.props.match.path}edit/:id`} component={Edit} />
+            </Switch>
         )
     }
 }

@@ -8,9 +8,7 @@ module.exports = {
     devtool: 'source-map',
     entry: {
         index: path.join(__dirname,'/src/index.jsx'),
-        vendor: path.join(__dirname,'/src/vendor.js'),
-        vendorAdmin: path.join(__dirname,'/src/admin/vendorAdmin.js'),
-        vendorClient: path.join(__dirname,'/src/client/vendorClient.js'),
+        vendor: path.join(__dirname,'/src/vendor.js')
     },
     output: {
         path: path.join(__dirname, '/dist'),

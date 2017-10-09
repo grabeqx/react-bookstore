@@ -1,17 +1,20 @@
 import React from 'react';
 
 import SearchInput from '../components/SearchInput';
+import List from './List';
 
-const ProductsList = (props) => {
+
+const ProductListContainer = (props) => {
+    console.log(props);
     return (
         <div className="row">
             <div className="col-sm-12">
                 <SearchInput />
             </div>
             <div className="col-sm-12">
-                {props.children}
+                <List {...props} />
             </div>
         </div>
     )
 }
-export default ProductsList;
+export default ProductListContainer;

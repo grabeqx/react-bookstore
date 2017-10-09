@@ -23,7 +23,7 @@ const List = ({items, columns}) => {
                             <td></td>
                             <td>{item.quantity}</td>
                             <td>
-                                <a href="#" className="button">Edit</a>
+                                <Link to={`/admin/products/edit/${item.id}`} className="button">Edit</Link>
                             </td>
                         </tr>
                     )
