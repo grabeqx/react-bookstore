@@ -8,7 +8,9 @@ const bookStoreReducer = (state = Map({
 }), action) => {
     switch(action.type) {
         case API_CONSTANTS.GET_PRODUCTS_SUCCESS: 
-            return state.set('books', action.payload);
+            return state.set('books', [...action.payload]);
+        case API_CONSTANTS.GET_BOOK_SUCCESS:
+            return state.set('editBook', action.payload)
         default:
             return state;
     }

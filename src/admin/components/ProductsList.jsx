@@ -6,7 +6,7 @@ import { getProducts } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import ProductListContainer from '../containers/ProductListContainer';
 import RouterConstants from '../constants/RouterConstants.js';
-import Edit from './Edit';
+import EditProduct from './EditProduct';
 
 class ProductsList extends React.Component {
     constructor(props) {
@@ -24,7 +24,7 @@ class ProductsList extends React.Component {
         return (
             <Switch>
                 <Route exact path={this.props.match.path} render={RouteDefaultListPage(ProductListContainer, this.state.columns, this.props)} />
-                <Route path={`${this.props.match.path}edit/:id`} component={Edit} />
+                <Route path={`${this.props.match.path}edit/:id`} component={EditProduct} />
             </Switch>
         )
     }

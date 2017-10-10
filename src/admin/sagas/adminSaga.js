@@ -12,8 +12,18 @@ function* getProducts() {
     }
 }
 
+function* getBook(action) {
+    try {
+        const book = yield call(BookApi.getBook, action.payload);
+        yield put({type: API_CONSTANTS.GET_BOOK_SUCCESS, payload: book});
+    } catch(e) {
+        yield put({type: API_CONSTANTS.GET_BOOK_FAIL, payload: e.message});
+    }
+}
+
 function* adminSaga() {
     yield takeLatest(API_CONSTANTS.GET_PRODUCTS, getProducts);
+    yield takeLatest(API_CONSTANTS.GET_BOOK, getBook);
 }
 
 export default adminSaga;
