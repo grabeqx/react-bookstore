@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
 
-import { getProducts } from '../actions/Api.actions';
+import { getProducts } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import ProductListContainer from '../containers/ProductListContainer';
 import RouterConstants from '../constants/RouterConstants.js';
@@ -12,7 +12,7 @@ class ProductsList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            columns: ['id','title','available','quantity','edit']
+            columns: ['id','title','available','quantity','edit', "remove"]
         }
     }
 

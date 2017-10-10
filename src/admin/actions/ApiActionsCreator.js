@@ -5,3 +5,9 @@ export function getProducts() {
         type: API_CONSTANTS.GET_PRODUCTS
     }
 }
+export function getBook(id) {
+    return {
+        type: API_CONSTANTS.GET_BOOK,
+        payload: id
+    }
+}

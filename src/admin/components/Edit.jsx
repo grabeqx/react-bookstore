@@ -1,11 +1,18 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 class Edit extends React.Component {
     constructor(props) {
         super(props);
-        console.log(this.props);
+        this.state = {
+            productId: parseInt(this.props.match.params.id)
+        }
+        console.log(this);
     }
 
+    componentDidMount() {
+
+    }
 
     render() {
         return (
@@ -13,5 +20,7 @@ class Edit extends React.Component {
         )
     }
 }
+
+
 
 export default Edit;

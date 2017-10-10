@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router'
 import Navbar from './Navbar';
 import Sidebar from '../components/Sidebar';
 import Root from '../components/Root';
+import MessagesInformator from '../components/MessagesInformator';
 
 const RootContainer = (props) => {
     return (
@@ -21,6 +22,7 @@ const RootContainer = (props) => {
                     <Root {...props} />
                 </main>
             </div>
+            <MessagesInformator />
         </div>
     )
 }

@@ -3,7 +3,8 @@ import { Map } from 'immutable';
 
 
 const bookStoreReducer = (state = Map({
-    books: []
+    books: [],
+    editBook: {}
 }), action) => {
     switch(action.type) {
         case API_CONSTANTS.GET_PRODUCTS_SUCCESS: 
