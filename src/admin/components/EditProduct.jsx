@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { getBook } from '../actions/ApiActionsCreator';
-import EditForm, { InputForm } from '../containers/EditForm';
+import EditFormContainer from '../containers/EditFormContainer';
+import EditForm from './EditForm';
 
 class EditProduct extends React.Component {
     constructor(props) {
@@ -10,11 +11,8 @@ class EditProduct extends React.Component {
         this.state = {
             title: "Edit",
             productId: parseInt(this.props.match.params.id),
-            book: {
-                title: ""
-            }
+            book: {}
         }
-        this.handleInput = this.handleInput.bind(this);
     }
 
     componentWillReceiveProps(nextProps) {
@@ -27,19 +25,11 @@ class EditProduct extends React.Component {
         this.props.getBook(this.state.productId);
     }
 
-    handleInput(e) {
-        this.setState({
-            book: Object.assign({}, this.state.book, {
-                title: e.target.value
-            })
-        })
-    }
-
     render() {
         return (
-            <EditForm pageTitle = {this.state.title} >
-                <InputForm type="text" label="test" value={this.state.book.title} handleInput={this.handleInput} name={this.state.book.title} />
-            </EditForm>
+            <EditFormContainer pageTitle = {this.state.title}>
+                {this.state.book.id ? <EditForm item={this.state.book}/> : null}
+            </EditFormContainer>
         )
     }
 }

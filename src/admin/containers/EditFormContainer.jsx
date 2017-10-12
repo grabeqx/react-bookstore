@@ -9,17 +9,15 @@ export const InputForm = ({type, label, value, handleInput, name}) => {
     )
 }
 
-const EditForm = (props) => {
+const EditFormContainer = (props) => {
     return (
         <div>
             <h1>{props.pageTitle}</h1>
-            <form>
-                <fieldset>
-                    {props.children}
-                </fieldset>
-            </form>
+            <div>
+                {props.children}
+            </div>
         </div>
     )
 }
 
-export default EditForm;
+export default EditFormContainer;
