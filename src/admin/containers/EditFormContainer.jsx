@@ -1,18 +1,18 @@
 import React from 'react';
 
-export const InputForm = ({type, label, value, handleInput, name}) => {
+export const InputForm = ({type, label, value, handleInput, name, button}) => {
     return (
-        <div>
-            <label>{label}</label>
-            <input type={type} value={value} name={name} onChange={handleInput} />
+        <div className="editRow">
+            {label ? <label>{label}</label> : null}
+            <input type={type} value={value} name={name} onChange={handleInput} className={button ? "button bg" : null} />
         </div>
     )
 }
 
 const EditFormContainer = (props) => {
     return (
-        <div>
-            <h1>{props.pageTitle}</h1>
+        <div className="mainContent">
+            <h1 className="pageTitle">{props.pageTitle}</h1>
             <div>
                 {props.children}
             </div>

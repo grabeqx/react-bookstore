@@ -18,6 +18,13 @@ body {
     color: $textColor;
     font-weight: 300;
 }
+input {
+    border-radius: 2px;
+    background: $inputBg;
+    color: $inputTextColor;
+    border: none;
+    padding: 5px 10px;
+}
 .button {
     display: inline-block;
     line-height: normal;
@@ -75,11 +82,12 @@ body {
     background: $inputBg;
     color: $inputTextColor;
 }
-.tableContainer {
+.mainContent {
     box-sizing: border-box;
     padding: 1rem;
     background: $bgColorSecundary;
     border-radius: 3px;
+    margin-bottom: 2rem;
     table {
         th {
             border-top: none;
@@ -144,4 +152,33 @@ body {
         margin: 0px;
         padding: 8px 25px;
     }
+}
+.editContainer {
+    background: $bgColorSecundary;
+    box-sizing: border-box;
+}
+.pageTitle {
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+.editRow {
+    margin-bottom: 10px;
+    label {
+        font-size: 20px;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        min-width: 230px;
+    }
+    input {
+        min-width: 200px;
+        width: 30%;
+        &[type='submit'] {
+            width: 100%;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 30px;   
+        }
+
+    }
+
 }

@@ -6,23 +6,34 @@ import { InputForm } from '../containers/EditFormContainer'
 class EditForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            item: this.props.item
-        };
+        this.state = this.props.item;
         this.handleInput = this.handleInput.bind(this);
     }
 
     handleInput(e) {
+        let name = e.target.name;
         this.setState({
-            item: Object.assign({}, this.state.item, {
-                title: e.target.value
-            })
+            [name]: e.target.value
         })
     }
 
     render() {
         return (
-            <InputForm type="text" label="test" value={this.state.item.title} handleInput={this.handleInput} name={this.state.item.title} />
+            <span>
+                {Object.keys(this.state).map((key, index) => (
+                    key != "id" ? 
+                        <InputForm 
+                            type="text" 
+                            key={index} 
+                            label={key.replace("_", " ")} 
+                            value={this.state[key]} 
+                            handleInput={this.handleInput} 
+                            name={key}
+                        /> 
+                    : null
+                ))}
+                <InputForm type="submit" value={this.props.type} button />
+            </span>
         )
     }
 }

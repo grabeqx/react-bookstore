@@ -6,7 +6,7 @@ import RouterConstants from '../constants/RouterConstants';
 
 const List = ({items = [], columns = []}) => {
     return (
-        <div className="tableContainer">
+        <div className="mainContent">
             <table className="table">
                 <thead>
                     <tr>

@@ -28,7 +28,7 @@ class EditProduct extends React.Component {
     render() {
         return (
             <EditFormContainer pageTitle = {this.state.title}>
-                {this.state.book.id ? <EditForm item={this.state.book}/> : null}
+                {this.state.book.id ? <EditForm item={this.state.book} type="Edit"/> : null}
             </EditFormContainer>
         )
     }
