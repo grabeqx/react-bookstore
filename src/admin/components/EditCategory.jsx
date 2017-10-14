@@ -1,17 +1,17 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { getBook } from '../actions/ApiActionsCreator';
+import { getCategory } from '../actions/ApiActionsCreator';
 import EditFormContainer from '../containers/EditFormContainer';
 import EditForm from './EditForm';
 
-class EditProduct extends React.Component {
+class EditCategory extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             title: "Edit",
             productId: parseInt(this.props.match.params.id),
-            book: {},
+            category: {},
             disabledItems: ['id'],
             textareas: ['desc']
         }
@@ -19,20 +19,20 @@ class EditProduct extends React.Component {
 
     componentWillReceiveProps(nextProps) {
         this.setState({
-            book: nextProps.book
+            category: nextProps.category
         })
     }
 
     componentDidMount() {
-        this.props.getBook(this.state.productId);
+        this.props.getCategory(this.state.productId);
     }
 
     render() {
         return (
             <EditFormContainer pageTitle = {this.state.title}>
-                {this.state.book.id ? 
+                {this.state.category.id ? 
                     <EditForm 
-                        item={this.state.book} 
+                        item={this.state.category} 
                         type="Edit" 
                         disabledItems={this.state.disabledItems} 
                         textareas={this.state.textareas}
@@ -45,9 +45,9 @@ class EditProduct extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        book: state.bookStore.get('editBook')
+        category: state.bookStore.get('editCategory')
     }
 }
 
 
-export default connect(mapStateToProps, { getBook })(EditProduct);
+export default connect(mapStateToProps, { getCategory })(EditCategory);

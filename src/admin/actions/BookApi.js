@@ -2,21 +2,22 @@ import axios from 'axios';
 
 const BookApi = {
 
-    getProducts: function() {
-        return axios.get('http://localhost:3001/books')
+    getDataList: function(type) {
+        return axios.get(`http://localhost:3001/${type}`)
             .then(response => response.data)
             .catch(reason => {
                 throw reason;
             })
     },
 
-    getBook: function(id) {
-        return axios.get(`http://localhost:3001/books/${id}`)
+    getData: function({type, id}) {
+        return axios.get(`http://localhost:3001/${type}/${id}`)
             .then(response => response.data)
             .catch(reason => {
                 throw reason;
             })
     }
+
 
 }
 

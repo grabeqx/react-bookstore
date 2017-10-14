@@ -12,25 +12,31 @@ class EditForm extends React.Component {
 
     handleInput(e) {
         let name = e.target.name;
-        this.setState({
-            [name]: e.target.value
-        })
+        let data = e.target.dataset.object;
+        if(data) {
+            this.setState({
+                [data]: Object.assign({}, this.state[data], {[name]: e.target.value})
+            })
+        } else {
+            this.setState({
+                [name]: e.target.value
+            })
+        }
     }
 
     render() {
         return (
             <span>
                 {Object.keys(this.state).map((key, index) => (
-                    key != "id" ? 
-                        <InputForm 
-                            type="text" 
-                            key={index} 
-                            label={key.replace("_", " ")} 
-                            value={this.state[key]} 
-                            handleInput={this.handleInput} 
-                            name={key}
-                        /> 
-                    : null
+                    <InputForm 
+                        type={this.props.textareas.findIndex((item) => (item == key)) ? "text" : "textarea"}
+                        key={index} 
+                        label={key.replace("_", " ")} 
+                        value={this.state[key]} 
+                        handleInput={this.handleInput} 
+                        name={key}
+                        disabled={!this.props.disabledItems.findIndex((item) => (item == key))}
+                    />
                 ))}
                 <InputForm type="submit" value={this.props.type} button />
             </span>

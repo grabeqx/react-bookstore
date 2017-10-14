@@ -2,13 +2,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
 
-import { getCategories } from '../actions/ApiActionsCreator';
+import { getAuthors } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import DataListContainer from '../containers/DataListContainer';
 import RouterConstants from '../constants/RouterConstants.js';
-import EditCategory from './EditCategory';
+import EditAuthor from './EditAuthor';
 
-class CategoryList extends React.Component {
+class AuthorsList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,14 +17,14 @@ class CategoryList extends React.Component {
     }
 
     componentDidMount() {
-        this.props.getCategories();
+        this.props.getAuthors();
     }
 
     render() {
         return (
             <Switch>
-                <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.categories)} />
-                <Route path={`${this.props.match.path}edit/:id`} component={EditCategory} />
+                <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.authors)} />
+                <Route path={`${this.props.match.path}edit/:id`} component={EditAuthor} />
             </Switch>
         )
     }
@@ -32,8 +32,8 @@ class CategoryList extends React.Component {
 
 const getStateToProps = (state) => {
     return {
-        categories: state.bookStore.get('categories')
+        authors: state.bookStore.get('authors')
     }
 }
 
-export default connect(getStateToProps, { getCategories })(CategoryList);
+export default connect(getStateToProps, { getAuthors })(AuthorsList);

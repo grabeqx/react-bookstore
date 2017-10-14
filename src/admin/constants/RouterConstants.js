@@ -1,6 +1,7 @@
 const RouterConstants = {
     "Products": "/admin/products/",
-    "Categories": "/admin/categories/"
+    "Categories": "/admin/categories/",
+    "Authors": "/admin/authors/"
 }
 
 export default RouterConstants;

@@ -4,7 +4,7 @@ import SearchInput from '../components/SearchInput';
 import List from './List';
 import AddButton from './AddButton';
 
-const ProductListContainer = (props) => {
+const DataListContainer = (props) => {
     return (
         <div className="row">
             <div className="col-sm-12">
@@ -12,11 +12,11 @@ const ProductListContainer = (props) => {
             </div>
             <div className="col-sm-12">
                 <div className="d-flex justify-content-end mb-3">
-                    <AddButton type="Product" />
+                    <AddButton />
                 </div>
                 <List {...props} />
             </div>
         </div>
     )
 }
-export default ProductListContainer;
+export default DataListContainer;

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const RouteDefaultListPage = (Component, columns, props) => {
+const RouteDefaultListPage = (Component, columns, items) => {
     return (
         () => {
             return (
-                <Component items={props.books} columns={columns} />
+                <Component items={items} columns={columns} />
             )
         }
     )

@@ -1,43 +1,43 @@
 {
     "authors": [
         {
-            "author_id": 1,
+            "id": 1,
             "name": "Marti Hofton"
         },
         {
-            "author_id": 2,
+            "id": 2,
             "name": "Shelbi Danaher"
         },
         {
-            "author_id": 3,
+            "id": 3,
             "name": "Bennie Lomaz"
         },
         {
-            "author_id": 4,
+            "id": 4,
             "name": "Emyle Greetland"
         },
         {
-            "author_id": 5,
+            "id": 5,
             "name": "Gabbey Flewitt"
         },
         {
-            "author_id": 6,
+            "id": 6,
             "name": "Janene Esterbrook"
         },
         {
-            "author_id": 7,
+            "id": 7,
             "name": "Bren Kertess"
         },
         {
-            "author_id": 8,
+            "id": 8,
             "name": "Frederic Frangleton"
         },
         {
-            "author_id": 9,
+            "id": 9,
             "name": "Clarie McOrkil"
         },
         {
-            "author_id": 10,
+            "id": 10,
             "name": "Tove Carlyle"
         }
     ],

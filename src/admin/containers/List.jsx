@@ -21,8 +21,8 @@ const List = ({items = [], columns = []}) => {
                             {columns.map((column,index) => (
                                 <td key={index}>
                                 {
-                                    index == (columns.length - 2) ? <Link to={`/admin/products/edit/${item.id}`} className="button bg"><i className="fa fa-pencil" aria-hidden="true"></i>{" "}Edit</Link> 
-                                    : index == (columns.length -1) ? <Link to={`/admin/products/edit/${item.id}`} className="button danger"><i className="fa fa-trash" aria-hidden="true"></i></Link>
+                                    index == (columns.length - 2) ? <Link to={`edit/${item.id}`} className="button bg"><i className="fa fa-pencil" aria-hidden="true"></i>{" "}Edit</Link> 
+                                    : index == (columns.length -1) ? <Link to={`edit/${item.id}`} className="button danger"><i className="fa fa-trash" aria-hidden="true"></i></Link>
                                     : item[column] 
                                 }
                                 </td>
