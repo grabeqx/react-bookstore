@@ -2,11 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
 
-import { getAuthors } from '../actions/ApiActionsCreator';
+import { getAuthors, getAuthor } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import DataListContainer from '../containers/DataListContainer';
-import RouterConstants from '../constants/RouterConstants.js';
-import EditAuthor from './EditAuthor';
+import EditPageComponent from './EditPage';
 
 class AuthorsList extends React.Component {
     constructor(props) {
@@ -24,7 +23,7 @@ class AuthorsList extends React.Component {
         return (
             <Switch>
                 <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.authors)} />
-                <Route path={`${this.props.match.path}edit/:id`} component={EditAuthor} />
+                <Route path={`${this.props.match.path}edit/:id`} component={EditPageComponent('author', this.props.getAuthor)} />
             </Switch>
         )
     }
@@ -36,4 +35,4 @@ const getStateToProps = (state) => {
     }
 }
 
-export default connect(getStateToProps, { getAuthors })(AuthorsList);
+export default connect(getStateToProps, { getAuthors, getAuthor })(AuthorsList);

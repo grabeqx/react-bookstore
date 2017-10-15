@@ -2,11 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
 
-import { getBooks } from '../actions/ApiActionsCreator';
+import { getBooks, getBook } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import DataListContainer from '../containers/DataListContainer';
-import RouterConstants from '../constants/RouterConstants.js';
-import EditProduct from './EditProduct';
+import EditPageComponent from './EditPage';
 
 class ProductsList extends React.Component {
     constructor(props) {
@@ -24,7 +23,7 @@ class ProductsList extends React.Component {
         return (
             <Switch>
                 <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.books)} />
-                <Route path={`${this.props.match.path}edit/:id`} component={EditProduct} />
+                <Route path={`${this.props.match.path}edit/:id`} component={EditPageComponent('book', this.props.getBook)} />
             </Switch>
         )
     }
@@ -36,4 +35,4 @@ const getStateToProps = (state) => {
     }
 }
 
-export default connect(getStateToProps, { getBooks })(ProductsList);
+export default connect(getStateToProps, { getBooks, getBook })(ProductsList);

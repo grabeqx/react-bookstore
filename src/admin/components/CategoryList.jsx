@@ -2,11 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router';
 
-import { getCategories } from '../actions/ApiActionsCreator';
+import { getCategories, getCategory } from '../actions/ApiActionsCreator';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import DataListContainer from '../containers/DataListContainer';
-import RouterConstants from '../constants/RouterConstants.js';
-import EditCategory from './EditCategory';
+import EditPageComponent from './EditPage';
 
 class CategoryList extends React.Component {
     constructor(props) {
@@ -24,7 +23,7 @@ class CategoryList extends React.Component {
         return (
             <Switch>
                 <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.categories)} />
-                <Route path={`${this.props.match.path}edit/:id`} component={EditCategory} />
+                <Route path={`${this.props.match.path}edit/:id`} component={EditPageComponent('category', this.props.getCategory)} />
             </Switch>
         )
     }
@@ -36,4 +35,4 @@ const getStateToProps = (state) => {
     }
 }
 
-export default connect(getStateToProps, { getCategories })(CategoryList);
+export default connect(getStateToProps, { getCategories, getCategory })(CategoryList);

@@ -22,4 +22,10 @@ class Root extends React.Component {
     }
 }
 
+const getStateToProps = (state) => {
+    return {
+        books: state.bookStore.get('books')
+    }
+}
+
 export default Root;
