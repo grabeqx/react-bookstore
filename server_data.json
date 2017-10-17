@@ -1,1118 +1,1118 @@
 {
-    "authors": [
-        {
-            "id": 1,
-            "name": "Marti Hofton"
-        },
-        {
-            "id": 2,
-            "name": "Shelbi Danaher"
-        },
-        {
-            "id": 3,
-            "name": "Bennie Lomaz"
-        },
-        {
-            "id": 4,
-            "name": "Emyle Greetland"
-        },
-        {
-            "id": 5,
-            "name": "Gabbey Flewitt"
-        },
-        {
-            "id": 6,
-            "name": "Janene Esterbrook"
-        },
-        {
-            "id": 7,
-            "name": "Bren Kertess"
-        },
-        {
-            "id": 8,
-            "name": "Frederic Frangleton"
-        },
-        {
-            "id": 9,
-            "name": "Clarie McOrkil"
-        },
-        {
-            "id": 10,
-            "name": "Tove Carlyle"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Love"
-        },
-        {
-            "id": 2,
-            "name": "Thriller"
-        },
-        {
-            "id": 3,
-            "name": "History"
-        },
-        {
-            "id": 4,
-            "name": "Fantasy"
-        },
-        {
-            "id": 5,
-            "name": "Other"
-        }
-    ],
-    "books": [
-        {
-            "id": 1,
-            "title": "A Coming-Out Party",
-            "isbn": "055629911-6",
-            "author_id": 4,
-            "publishing_house": "Wimaart",
-            "pages": 112,
-            "new": 0,
-            "promotion": 0,
-            "discount": 82,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Division of joint capsule, ligament, or cartilage, other specified sites",
-            "category_id": 1,
-            "price": 167,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/24/2017"
-        },
-        {
-            "id": 2,
-            "title": "Listen to Your Heart",
-            "isbn": "491108559-2",
-            "author_id": 1,
-            "publishing_house": "Wimaart",
-            "pages": 105,
-            "new": 0,
-            "promotion": 0,
-            "discount": 97,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Limb shortening procedures, unspecified site",
-            "category_id": 2,
-            "price": 119,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "05/28/2017"
-        },
-        {
-            "id": 3,
-            "title": "Open Season",
-            "isbn": "441825402-1",
-            "author_id": 7,
-            "publishing_house": "Betters",
-            "pages": 419,
-            "new": 0,
-            "promotion": 0,
-            "discount": 15,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Other partial salpingectomy",
-            "category_id": 3,
-            "price": 144,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "12/11/2016"
-        },
-        {
-            "id": 4,
-            "title": "Dispatch from Reuter's, A",
-            "isbn": "742401053-0",
-            "author_id": 1,
-            "publishing_house": "AMBER",
-            "pages": 153,
-            "new": 0,
-            "promotion": 0,
-            "discount": 45,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Arthroscopy, elbow",
-            "category_id": 4,
-            "price": 118,
-            "quantity": 20,
-            "available": 1,
-            "release_date": "09/26/2017"
-        },
-        {
-            "id": 5,
-            "title": "That's My Boy",
-            "isbn": "442572081-4",
-            "author_id": 8,
-            "publishing_house": "3KM",
-            "pages": 348,
-            "new": 0,
-            "promotion": 0,
-            "discount": 2,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Biopsy of external ear",
-            "category_id": 3,
-            "price": 85,
-            "quantity": 1,
-            "available": 1,
-            "release_date": "10/11/2016"
-        },
-        {
-            "id": 6,
-            "title": "Ballad of Ramblin' Jack, The",
-            "isbn": "173763141-5",
-            "author_id": 9,
-            "publishing_house": "Betters",
-            "pages": 256,
-            "new": 0,
-            "promotion": 0,
-            "discount": 27,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
-            },
-            "desc": "Multiple segmental resection of small intestine",
-            "category_id": 1,
-            "price": 97,
-            "quantity": 5,
-            "available": 1,
-            "release_date": "03/23/2017"
-        },
-        {
-            "id": 7,
-            "title": "Presidio, The",
-            "isbn": "620930652-7",
-            "author_id": 7,
-            "publishing_house": "Ad Vocem",
-            "pages": 401,
-            "new": 0,
-            "promotion": 0,
-            "discount": 44,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Restoration of tooth by inlay",
-            "category_id": 3,
-            "price": 137,
-            "quantity": 12,
-            "available": 1,
-            "release_date": "10/24/2016"
-        },
-        {
-            "id": 8,
-            "title": "Sex Positive",
-            "isbn": "557746327-0",
-            "author_id": 7,
-            "publishing_house": "Betters",
-            "pages": 379,
-            "new": 0,
-            "promotion": 0,
-            "discount": 88,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Control of (postoperative) hemorrhage of prostate",
-            "category_id": 2,
-            "price": 74,
-            "quantity": 1,
-            "available": 1,
-            "release_date": "08/20/2017"
-        },
-        {
-            "id": 9,
-            "title": "Who Killed Vincent Chin?",
-            "isbn": "544358887-7",
-            "author_id": 10,
-            "publishing_house": "AMBER",
-            "pages": 181,
-            "new": 0,
-            "promotion": 0,
-            "discount": 20,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Revision of extraocular muscle surgery",
-            "category_id": 2,
-            "price": 50,
-            "quantity": 15,
-            "available": 1,
-            "release_date": "07/27/2017"
-        },
-        {
-            "id": 10,
-            "title": "Boondock Saints II: All Saints Day, The",
-            "isbn": "300972340-7",
-            "author_id": 8,
-            "publishing_house": "BGW",
-            "pages": 250,
-            "new": 0,
-            "promotion": 0,
-            "discount": 14,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
-            },
-            "desc": "Other orthodontic operation",
-            "category_id": 4,
-            "price": 109,
-            "quantity": 16,
-            "available": 1,
-            "release_date": "01/27/2017"
-        },
-        {
-            "id": 11,
-            "title": "Mudge Boy, The",
-            "isbn": "361061669-5",
-            "author_id": 1,
-            "publishing_house": "Wimaart",
-            "pages": 333,
-            "new": 0,
-            "promotion": 0,
-            "discount": 78,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Removal of foreign body without incision from lower limb, except foot",
-            "category_id": 5,
-            "price": 84,
-            "quantity": 30,
-            "available": 1,
-            "release_date": "12/13/2016"
-        },
-        {
-            "id": 12,
-            "title": "3 Days to Kill",
-            "isbn": "949898486-7",
-            "author_id": 4,
-            "publishing_house": "3KM",
-            "pages": 306,
-            "new": 0,
-            "promotion": 0,
-            "discount": 56,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Deep inferior epigastric artery perforator (DIEP) flap, free",
-            "category_id": 3,
-            "price": 72,
-            "quantity": 40,
-            "available": 1,
-            "release_date": "07/25/2017"
-        },
-        {
-            "id": 13,
-            "title": "I Was an Adventuress",
-            "isbn": "394844765-9",
-            "author_id": 3,
-            "publishing_house": "Wimaart",
-            "pages": 403,
-            "new": 0,
-            "promotion": 0,
-            "discount": 22,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Advancement of pedicle graft",
-            "category_id": 3,
-            "price": 149,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "03/19/2017"
-        },
-        {
-            "id": 14,
-            "title": "Enemy Mine",
-            "isbn": "327696728-6",
-            "author_id": 10,
-            "publishing_house": "Wimaart",
-            "pages": 360,
-            "new": 0,
-            "promotion": 0,
-            "discount": 19,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Other repair of nasal sinus",
-            "category_id": 1,
-            "price": 100,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "10/18/2016"
-        },
-        {
-            "id": 15,
-            "title": "Short Term 12",
-            "isbn": "867158462-3",
-            "author_id": 6,
-            "publishing_house": "3KM",
-            "pages": 208,
-            "new": 0,
-            "promotion": 0,
-            "discount": 77,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Other permanent ileostomy",
-            "category_id": 3,
-            "price": 67,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "12/25/2016"
-        },
-        {
-            "id": 16,
-            "title": "Dead Poets Society",
-            "isbn": "874969482-0",
-            "author_id": 7,
-            "publishing_house": "3KM",
-            "pages": 397,
-            "new": 0,
-            "promotion": 0,
-            "discount": 73,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Internal fixation of bone without fracture reduction, radius and ulna",
-            "category_id": 5,
-            "price": 196,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/01/2017"
-        },
-        {
-            "id": 17,
-            "title": "Sada",
-            "isbn": "845878544-7",
-            "author_id": 9,
-            "publishing_house": "AMBER",
-            "pages": 271,
-            "new": 0,
-            "promotion": 0,
-            "discount": 63,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Other diagnostic procedures on uterus and supporting structures",
-            "category_id": 3,
-            "price": 153,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "02/14/2017"
-        },
-        {
-            "id": 18,
-            "title": "Nothing Lasts Forever ",
-            "isbn": "985978485-X",
-            "author_id": 3,
-            "publishing_house": "3KM",
-            "pages": 132,
-            "new": 0,
-            "promotion": 0,
-            "discount": 19,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Replacement of cast on upper limb",
-            "category_id": 3,
-            "price": 67,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "06/13/2017"
-        },
-        {
-            "id": 19,
-            "title": "Married to It",
-            "isbn": "254732311-7",
-            "author_id": 1,
-            "publishing_house": "Ad Vocem",
-            "pages": 173,
-            "new": 0,
-            "promotion": 0,
-            "discount": 37,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
-            },
-            "desc": "Advancement of one extraocular muscle",
-            "category_id": 4,
-            "price": 56,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "02/15/2017"
-        },
-        {
-            "id": 20,
-            "title": "Last of the Mohicans, The",
-            "isbn": "147170260-X",
-            "author_id": 8,
-            "publishing_house": "AMBER",
-            "pages": 121,
-            "new": 0,
-            "promotion": 0,
-            "discount": 2,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "P32 and other tracer studies of eye",
-            "category_id": 5,
-            "price": 57,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "06/20/2017"
-        },
-        {
-            "id": 21,
-            "title": "Creation",
-            "isbn": "541510786-X",
-            "author_id": 4,
-            "publishing_house": "AMBER",
-            "pages": 448,
-            "new": 0,
-            "promotion": 0,
-            "discount": 45,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
-            },
-            "desc": "Pelvic opaque dye contrast radiography",
-            "category_id": 5,
-            "price": 178,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "04/01/2017"
-        },
-        {
-            "id": 22,
-            "title": "Witch Hunt",
-            "isbn": "842978257-5",
-            "author_id": 6,
-            "publishing_house": "AMBER",
-            "pages": 151,
-            "new": 0,
-            "promotion": 0,
-            "discount": 28,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
-            },
-            "desc": "Open heart valvuloplasty of pulmonary valve without replacement",
-            "category_id": 3,
-            "price": 56,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "06/21/2017"
-        },
-        {
-            "id": 23,
-            "title": "Wedding Singer, The",
-            "isbn": "232957533-5",
-            "author_id": 9,
-            "publishing_house": "BGW",
-            "pages": 276,
-            "new": 0,
-            "promotion": 0,
-            "discount": 60,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Exploratory verbal psychotherapy",
-            "category_id": 3,
-            "price": 117,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "03/26/2017"
-        },
-        {
-            "id": 24,
-            "title": "Django Unchained",
-            "isbn": "486392693-6",
-            "author_id": 5,
-            "publishing_house": "Betters",
-            "pages": 343,
-            "new": 0,
-            "promotion": 0,
-            "discount": 86,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
-            },
-            "desc": "Repair of symblepharon with free graft",
-            "category_id": 2,
-            "price": 103,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "01/25/2017"
-        },
-        {
-            "id": 25,
-            "title": "Wuthering Heights",
-            "isbn": "140793594-1",
-            "author_id": 4,
-            "publishing_house": "AMBER",
-            "pages": 291,
-            "new": 0,
-            "promotion": 0,
-            "discount": 10,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
-            },
-            "desc": "Repair of endocardial cushion defect with prosthesis",
-            "category_id": 1,
-            "price": 65,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "01/25/2017"
-        },
-        {
-            "id": 26,
-            "title": "Black Girl (La noire de...)",
-            "isbn": "544617880-7",
-            "author_id": 5,
-            "publishing_house": "BGW",
-            "pages": 188,
-            "new": 0,
-            "promotion": 0,
-            "discount": 50,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Insertion or replacement of facet replacement device(s)",
-            "category_id": 5,
-            "price": 145,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "08/30/2017"
-        },
-        {
-            "id": 27,
-            "title": "White, Red and Verdone",
-            "isbn": "881203908-1",
-            "author_id": 6,
-            "publishing_house": "3KM",
-            "pages": 108,
-            "new": 0,
-            "promotion": 0,
-            "discount": 60,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Exteriorization of large intestine",
-            "category_id": 3,
-            "price": 54,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "01/08/2017"
-        },
-        {
-            "id": 28,
-            "title": "Wild Zero",
-            "isbn": "725350701-0",
-            "author_id": 2,
-            "publishing_house": "Ad Vocem",
-            "pages": 163,
-            "new": 0,
-            "promotion": 0,
-            "discount": 52,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Removal of surgically implanted material from posterior segment of eye",
-            "category_id": 1,
-            "price": 129,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "01/07/2017"
-        },
-        {
-            "id": 29,
-            "title": "Uninvited, The",
-            "isbn": "569321912-7",
-            "author_id": 10,
-            "publishing_house": "Ad Vocem",
-            "pages": 450,
-            "new": 0,
-            "promotion": 0,
-            "discount": 31,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.png/cc0000/ffffff"
-            },
-            "desc": "Aortography",
-            "category_id": 1,
-            "price": 135,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "02/28/2017"
-        },
-        {
-            "id": 30,
-            "title": "Singing Nun, The",
-            "isbn": "228317390-6",
-            "author_id": 7,
-            "publishing_house": "AMBER",
-            "pages": 175,
-            "new": 0,
-            "promotion": 0,
-            "discount": 91,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/cc0000/ffffff"
-            },
-            "desc": "Amputation through hand",
-            "category_id": 2,
-            "price": 105,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "02/19/2017"
-        },
-        {
-            "id": 31,
-            "title": "Last Mimzy, The",
-            "isbn": "055629548-X",
-            "author_id": 4,
-            "publishing_house": "3KM",
-            "pages": 302,
-            "new": 0,
-            "promotion": 0,
-            "discount": 78,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Refusion of dorsal and dorsolumbar spine, posterior column, posterior technique",
-            "category_id": 4,
-            "price": 190,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/23/2017"
-        },
-        {
-            "id": 32,
-            "title": "Reality",
-            "isbn": "633646728-7",
-            "author_id": 4,
-            "publishing_house": "BGW",
-            "pages": 429,
-            "new": 0,
-            "promotion": 0,
-            "discount": 73,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Insertion of tissue expander",
-            "category_id": 2,
-            "price": 200,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "05/14/2017"
-        },
-        {
-            "id": 33,
-            "title": "Wend Kuuni (a.k.a. God's Gift)",
-            "isbn": "103559385-8",
-            "author_id": 5,
-            "publishing_house": "BGW",
-            "pages": 429,
-            "new": 0,
-            "promotion": 0,
-            "discount": 12,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
-            },
-            "desc": "Application of external fixator device, scapula, clavicle, and thorax [ribs and sternum]",
-            "category_id": 5,
-            "price": 106,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "10/02/2017"
-        },
-        {
-            "id": 34,
-            "title": "Friday After Next",
-            "isbn": "628979682-8",
-            "author_id": 10,
-            "publishing_house": "3KM",
-            "pages": 428,
-            "new": 0,
-            "promotion": 0,
-            "discount": 81,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
-            },
-            "desc": "Other diagnostic procedures on blood vessels",
-            "category_id": 3,
-            "price": 157,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "12/19/2016"
-        },
-        {
-            "id": 35,
-            "title": "Ambush Trail",
-            "isbn": "978254189-3",
-            "author_id": 9,
-            "publishing_house": "BGW",
-            "pages": 324,
-            "new": 0,
-            "promotion": 0,
-            "discount": 64,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Destruction of chorioretinal lesion by cryotherapy",
-            "category_id": 1,
-            "price": 159,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "05/10/2017"
-        },
-        {
-            "id": 36,
-            "title": "Willard",
-            "isbn": "695548507-5",
-            "author_id": 5,
-            "publishing_house": "Betters",
-            "pages": 231,
-            "new": 0,
-            "promotion": 0,
-            "discount": 98,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Other incision of perirenal or periureteral tissue",
-            "category_id": 1,
-            "price": 175,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "09/23/2017"
-        },
-        {
-            "id": 37,
-            "title": "Rains of Ranchipur, The",
-            "isbn": "978465545-4",
-            "author_id": 5,
-            "publishing_house": "Ad Vocem",
-            "pages": 304,
-            "new": 0,
-            "promotion": 0,
-            "discount": 77,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Other skeletal traction",
-            "category_id": 1,
-            "price": 50,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "10/16/2016"
-        },
-        {
-            "id": 38,
-            "title": "Shadows of Liberty ",
-            "isbn": "886873391-9",
-            "author_id": 9,
-            "publishing_house": "Wimaart",
-            "pages": 166,
-            "new": 0,
-            "promotion": 0,
-            "discount": 58,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
-            },
-            "desc": "Excision of semilunar cartilage of knee",
-            "category_id": 3,
-            "price": 95,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "12/27/2016"
-        },
-        {
-            "id": 39,
-            "title": "Ordet (Word, The)",
-            "isbn": "416170242-6",
-            "author_id": 4,
-            "publishing_house": "BGW",
-            "pages": 364,
-            "new": 0,
-            "promotion": 0,
-            "discount": 59,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
-            },
-            "desc": "Symphysiotomy for horseshoe kidney",
-            "category_id": 4,
-            "price": 148,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "08/14/2017"
-        },
-        {
-            "id": 40,
-            "title": "Rendezvous",
-            "isbn": "232797909-9",
-            "author_id": 10,
-            "publishing_house": "BGW",
-            "pages": 283,
-            "new": 0,
-            "promotion": 0,
-            "discount": 91,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
-                "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
-            },
-            "desc": "Uterine artery embolization [UAE] with coils",
-            "category_id": 3,
-            "price": 98,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/25/2017"
-        },
-        {
-            "id": 41,
-            "title": "Bad Lieutenant: Port of Call New Orleans",
-            "isbn": "462659138-8",
-            "author_id": 8,
-            "publishing_house": "Betters",
-            "pages": 371,
-            "new": 0,
-            "promotion": 0,
-            "discount": 16,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
-            },
-            "desc": "Other and open repair of diaphragmatic hernia, with thoracic approach",
-            "category_id": 3,
-            "price": 111,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "10/08/2016"
-        },
-        {
-            "id": 42,
-            "title": "Wild Man Blues",
-            "isbn": "347594780-3",
-            "author_id": 9,
-            "publishing_house": "Betters",
-            "pages": 343,
-            "new": 0,
-            "promotion": 0,
-            "discount": 57,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Repair of rupture of eyeball",
-            "category_id": 4,
-            "price": 85,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "02/25/2017"
-        },
-        {
-            "id": 43,
-            "title": "Generation Kill",
-            "isbn": "992431708-4",
-            "author_id": 1,
-            "publishing_house": "Betters",
-            "pages": 322,
-            "new": 0,
-            "promotion": 0,
-            "discount": 77,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Excision or destruction of lesion of sclera",
-            "category_id": 1,
-            "price": 158,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/06/2017"
-        },
-        {
-            "id": 44,
-            "title": "Jungle de Ikou (Jungre de Ikou)",
-            "isbn": "047337368-8",
-            "author_id": 5,
-            "publishing_house": "BGW",
-            "pages": 258,
-            "new": 0,
-            "promotion": 0,
-            "discount": 43,
-            "images": {
-                "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Extracorporeal hepatic assistance",
-            "category_id": 5,
-            "price": 55,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "09/02/2017"
-        },
-        {
-            "id": 45,
-            "title": "Breakfast with Scot",
-            "isbn": "087949601-0",
-            "author_id": 1,
-            "publishing_house": "Wimaart",
-            "pages": 257,
-            "new": 0,
-            "promotion": 0,
-            "discount": 5,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
-            },
-            "desc": "Open biopsy of bladder",
-            "category_id": 2,
-            "price": 110,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "07/18/2017"
-        },
-        {
-            "id": 46,
-            "title": "Death of a Bureaucrat (La muerte de un burócrata)",
-            "isbn": "180679814-X",
-            "author_id": 2,
-            "publishing_house": "Ad Vocem",
-            "pages": 114,
-            "new": 0,
-            "promotion": 0,
-            "discount": 89,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
-            },
-            "desc": "Insertion of choledochohepatic tube for decompression",
-            "category_id": 4,
-            "price": 83,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "09/28/2017"
-        },
-        {
-            "id": 47,
-            "title": "Super Hero Party Clown",
-            "isbn": "989256764-1",
-            "author_id": 2,
-            "publishing_house": "3KM",
-            "pages": 253,
-            "new": 0,
-            "promotion": 0,
-            "discount": 6,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Local perfusion of kidney",
-            "category_id": 2,
-            "price": 78,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "06/10/2017"
-        },
-        {
-            "id": 48,
-            "title": "Joker",
-            "isbn": "297391022-6",
-            "author_id": 6,
-            "publishing_house": "Betters",
-            "pages": 305,
-            "new": 0,
-            "promotion": 0,
-            "discount": 84,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
-            },
-            "desc": "Localized perfusion of liver",
-            "category_id": 5,
-            "price": 89,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "10/19/2016"
-        },
-        {
-            "id": 49,
-            "title": "Posto, Il",
-            "isbn": "734930145-6",
-            "author_id": 5,
-            "publishing_house": "AMBER",
-            "pages": 444,
-            "new": 0,
-            "promotion": 0,
-            "discount": 23,
-            "images": {
-                "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
-                "big": "http://dummyimage.com/800x933.png/dddddd/000000"
-            },
-            "desc": "Endoscopic excision or destruction of lesion or tissue of pancreatic duct",
-            "category_id": 5,
-            "price": 115,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "11/12/2016"
-        },
-        {
-            "id": 50,
-            "title": "Open Windows",
-            "isbn": "762255494-4",
-            "author_id": 6,
-            "publishing_house": "Wimaart",
-            "pages": 359,
-            "new": 0,
-            "promotion": 0,
-            "discount": 20,
-            "images": {
-                "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
-                "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
-            },
-            "desc": "Fat graft to breast",
-            "category_id": 2,
-            "price": 197,
-            "quantity": 10,
-            "available": 1,
-            "release_date": "11/01/2016"
-        }
-    ]
+  "authors": [
+    {
+      "id": 1,
+      "name": "Marti Hofton12"
+    },
+    {
+      "id": 2,
+      "name": "Shelbi Danaher"
+    },
+    {
+      "id": 3,
+      "name": "Bennie Lomaz"
+    },
+    {
+      "id": 4,
+      "name": "Emyle Greetland"
+    },
+    {
+      "id": 5,
+      "name": "Gabbey Flewitt"
+    },
+    {
+      "id": 6,
+      "name": "Janene Esterbrook"
+    },
+    {
+      "id": 7,
+      "name": "Bren Kertess"
+    },
+    {
+      "id": 8,
+      "name": "Frederic Frangleton"
+    },
+    {
+      "id": 9,
+      "name": "Clarie McOrkil"
+    },
+    {
+      "id": 10,
+      "name": "Tove Carlyle"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Love2"
+    },
+    {
+      "id": 2,
+      "name": "Thriller"
+    },
+    {
+      "id": 3,
+      "name": "History"
+    },
+    {
+      "id": 4,
+      "name": "Fantasy"
+    },
+    {
+      "id": 5,
+      "name": "Other"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "A Coming-Out Party123",
+      "isbn": "055629911-6",
+      "author_id": 4,
+      "publishing_house": "Wimaart",
+      "pages": 112,
+      "new": 0,
+      "promotion": 0,
+      "discount": 82,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Division of joint capsule, ligament, or cartilage, other specified sites",
+      "category_id": 1,
+      "price": 167,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/24/2017"
+    },
+    {
+      "id": 2,
+      "title": "Listen to Your Heart",
+      "isbn": "491108559-2",
+      "author_id": 1,
+      "publishing_house": "Wimaart",
+      "pages": 105,
+      "new": 0,
+      "promotion": 0,
+      "discount": 97,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Limb shortening procedures, unspecified site",
+      "category_id": 2,
+      "price": 119,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "05/28/2017"
+    },
+    {
+      "id": 3,
+      "title": "Open Season",
+      "isbn": "441825402-1",
+      "author_id": 7,
+      "publishing_house": "Betters",
+      "pages": 419,
+      "new": 0,
+      "promotion": 0,
+      "discount": 15,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Other partial salpingectomy",
+      "category_id": 3,
+      "price": 144,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "12/11/2016"
+    },
+    {
+      "id": 4,
+      "title": "Dispatch from Reuter's, A",
+      "isbn": "742401053-0",
+      "author_id": 1,
+      "publishing_house": "AMBER",
+      "pages": 153,
+      "new": 0,
+      "promotion": 0,
+      "discount": 45,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Arthroscopy, elbow",
+      "category_id": 4,
+      "price": 118,
+      "quantity": 20,
+      "available": 1,
+      "release_date": "09/26/2017"
+    },
+    {
+      "id": 5,
+      "title": "That's My Boy",
+      "isbn": "442572081-4",
+      "author_id": 8,
+      "publishing_house": "3KM",
+      "pages": 348,
+      "new": 0,
+      "promotion": 0,
+      "discount": 2,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Biopsy of external ear",
+      "category_id": 3,
+      "price": 85,
+      "quantity": 1,
+      "available": 1,
+      "release_date": "10/11/2016"
+    },
+    {
+      "id": 6,
+      "title": "Ballad of Ramblin' Jack, The",
+      "isbn": "173763141-5",
+      "author_id": 9,
+      "publishing_house": "Betters",
+      "pages": 256,
+      "new": 0,
+      "promotion": 0,
+      "discount": 27,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
+      },
+      "desc": "Multiple segmental resection of small intestine",
+      "category_id": 1,
+      "price": 97,
+      "quantity": 5,
+      "available": 1,
+      "release_date": "03/23/2017"
+    },
+    {
+      "id": 7,
+      "title": "Presidio, The",
+      "isbn": "620930652-7",
+      "author_id": 7,
+      "publishing_house": "Ad Vocem",
+      "pages": 401,
+      "new": 0,
+      "promotion": 0,
+      "discount": 44,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Restoration of tooth by inlay",
+      "category_id": 3,
+      "price": 137,
+      "quantity": 12,
+      "available": 1,
+      "release_date": "10/24/2016"
+    },
+    {
+      "id": 8,
+      "title": "Sex Positive",
+      "isbn": "557746327-0",
+      "author_id": 7,
+      "publishing_house": "Betters",
+      "pages": 379,
+      "new": 0,
+      "promotion": 0,
+      "discount": 88,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Control of (postoperative) hemorrhage of prostate",
+      "category_id": 2,
+      "price": 74,
+      "quantity": 1,
+      "available": 1,
+      "release_date": "08/20/2017"
+    },
+    {
+      "id": 9,
+      "title": "Who Killed Vincent Chin?",
+      "isbn": "544358887-7",
+      "author_id": 10,
+      "publishing_house": "AMBER",
+      "pages": 181,
+      "new": 0,
+      "promotion": 0,
+      "discount": 20,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Revision of extraocular muscle surgery",
+      "category_id": 2,
+      "price": 50,
+      "quantity": 15,
+      "available": 1,
+      "release_date": "07/27/2017"
+    },
+    {
+      "id": 10,
+      "title": "Boondock Saints II: All Saints Day, The",
+      "isbn": "300972340-7",
+      "author_id": 8,
+      "publishing_house": "BGW",
+      "pages": 250,
+      "new": 0,
+      "promotion": 0,
+      "discount": 14,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
+      },
+      "desc": "Other orthodontic operation",
+      "category_id": 4,
+      "price": 109,
+      "quantity": 16,
+      "available": 1,
+      "release_date": "01/27/2017"
+    },
+    {
+      "id": 11,
+      "title": "Mudge Boy, The",
+      "isbn": "361061669-5",
+      "author_id": 1,
+      "publishing_house": "Wimaart",
+      "pages": 333,
+      "new": 0,
+      "promotion": 0,
+      "discount": 78,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Removal of foreign body without incision from lower limb, except foot",
+      "category_id": 5,
+      "price": 84,
+      "quantity": 30,
+      "available": 1,
+      "release_date": "12/13/2016"
+    },
+    {
+      "id": 12,
+      "title": "3 Days to Kill",
+      "isbn": "949898486-7",
+      "author_id": 4,
+      "publishing_house": "3KM",
+      "pages": 306,
+      "new": 0,
+      "promotion": 0,
+      "discount": 56,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Deep inferior epigastric artery perforator (DIEP) flap, free",
+      "category_id": 3,
+      "price": 72,
+      "quantity": 40,
+      "available": 1,
+      "release_date": "07/25/2017"
+    },
+    {
+      "id": 13,
+      "title": "I Was an Adventuress",
+      "isbn": "394844765-9",
+      "author_id": 3,
+      "publishing_house": "Wimaart",
+      "pages": 403,
+      "new": 0,
+      "promotion": 0,
+      "discount": 22,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Advancement of pedicle graft",
+      "category_id": 3,
+      "price": 149,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "03/19/2017"
+    },
+    {
+      "id": 14,
+      "title": "Enemy Mine",
+      "isbn": "327696728-6",
+      "author_id": 10,
+      "publishing_house": "Wimaart",
+      "pages": 360,
+      "new": 0,
+      "promotion": 0,
+      "discount": 19,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Other repair of nasal sinus",
+      "category_id": 1,
+      "price": 100,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "10/18/2016"
+    },
+    {
+      "id": 15,
+      "title": "Short Term 12",
+      "isbn": "867158462-3",
+      "author_id": 6,
+      "publishing_house": "3KM",
+      "pages": 208,
+      "new": 0,
+      "promotion": 0,
+      "discount": 77,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Other permanent ileostomy",
+      "category_id": 3,
+      "price": 67,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "12/25/2016"
+    },
+    {
+      "id": 16,
+      "title": "Dead Poets Society",
+      "isbn": "874969482-0",
+      "author_id": 7,
+      "publishing_house": "3KM",
+      "pages": 397,
+      "new": 0,
+      "promotion": 0,
+      "discount": 73,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Internal fixation of bone without fracture reduction, radius and ulna",
+      "category_id": 5,
+      "price": 196,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/01/2017"
+    },
+    {
+      "id": 17,
+      "title": "Sada",
+      "isbn": "845878544-7",
+      "author_id": 9,
+      "publishing_house": "AMBER",
+      "pages": 271,
+      "new": 0,
+      "promotion": 0,
+      "discount": 63,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Other diagnostic procedures on uterus and supporting structures",
+      "category_id": 3,
+      "price": 153,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "02/14/2017"
+    },
+    {
+      "id": 18,
+      "title": "Nothing Lasts Forever ",
+      "isbn": "985978485-X",
+      "author_id": 3,
+      "publishing_house": "3KM",
+      "pages": 132,
+      "new": 0,
+      "promotion": 0,
+      "discount": 19,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Replacement of cast on upper limb",
+      "category_id": 3,
+      "price": 67,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "06/13/2017"
+    },
+    {
+      "id": 19,
+      "title": "Married to It",
+      "isbn": "254732311-7",
+      "author_id": 1,
+      "publishing_house": "Ad Vocem",
+      "pages": 173,
+      "new": 0,
+      "promotion": 0,
+      "discount": 37,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
+      },
+      "desc": "Advancement of one extraocular muscle",
+      "category_id": 4,
+      "price": 56,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "02/15/2017"
+    },
+    {
+      "id": 20,
+      "title": "Last of the Mohicans, The",
+      "isbn": "147170260-X",
+      "author_id": 8,
+      "publishing_house": "AMBER",
+      "pages": 121,
+      "new": 0,
+      "promotion": 0,
+      "discount": 2,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "P32 and other tracer studies of eye",
+      "category_id": 5,
+      "price": 57,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "06/20/2017"
+    },
+    {
+      "id": 21,
+      "title": "Creation",
+      "isbn": "541510786-X",
+      "author_id": 4,
+      "publishing_house": "AMBER",
+      "pages": 448,
+      "new": 0,
+      "promotion": 0,
+      "discount": 45,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
+      },
+      "desc": "Pelvic opaque dye contrast radiography",
+      "category_id": 5,
+      "price": 178,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "04/01/2017"
+    },
+    {
+      "id": 22,
+      "title": "Witch Hunt",
+      "isbn": "842978257-5",
+      "author_id": 6,
+      "publishing_house": "AMBER",
+      "pages": 151,
+      "new": 0,
+      "promotion": 0,
+      "discount": 28,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.bmp/ff4444/ffffff"
+      },
+      "desc": "Open heart valvuloplasty of pulmonary valve without replacement",
+      "category_id": 3,
+      "price": 56,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "06/21/2017"
+    },
+    {
+      "id": 23,
+      "title": "Wedding Singer, The",
+      "isbn": "232957533-5",
+      "author_id": 9,
+      "publishing_house": "BGW",
+      "pages": 276,
+      "new": 0,
+      "promotion": 0,
+      "discount": 60,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Exploratory verbal psychotherapy",
+      "category_id": 3,
+      "price": 117,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "03/26/2017"
+    },
+    {
+      "id": 24,
+      "title": "Django Unchained",
+      "isbn": "486392693-6",
+      "author_id": 5,
+      "publishing_house": "Betters",
+      "pages": 343,
+      "new": 0,
+      "promotion": 0,
+      "discount": 86,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
+      },
+      "desc": "Repair of symblepharon with free graft",
+      "category_id": 2,
+      "price": 103,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "01/25/2017"
+    },
+    {
+      "id": 25,
+      "title": "Wuthering Heights",
+      "isbn": "140793594-1",
+      "author_id": 4,
+      "publishing_house": "AMBER",
+      "pages": 291,
+      "new": 0,
+      "promotion": 0,
+      "discount": 10,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
+      },
+      "desc": "Repair of endocardial cushion defect with prosthesis",
+      "category_id": 1,
+      "price": 65,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "01/25/2017"
+    },
+    {
+      "id": 26,
+      "title": "Black Girl (La noire de...)",
+      "isbn": "544617880-7",
+      "author_id": 5,
+      "publishing_house": "BGW",
+      "pages": 188,
+      "new": 0,
+      "promotion": 0,
+      "discount": 50,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Insertion or replacement of facet replacement device(s)",
+      "category_id": 5,
+      "price": 145,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "08/30/2017"
+    },
+    {
+      "id": 27,
+      "title": "White, Red and Verdone",
+      "isbn": "881203908-1",
+      "author_id": 6,
+      "publishing_house": "3KM",
+      "pages": 108,
+      "new": 0,
+      "promotion": 0,
+      "discount": 60,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Exteriorization of large intestine",
+      "category_id": 3,
+      "price": 54,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "01/08/2017"
+    },
+    {
+      "id": 28,
+      "title": "Wild Zero",
+      "isbn": "725350701-0",
+      "author_id": 2,
+      "publishing_house": "Ad Vocem",
+      "pages": 163,
+      "new": 0,
+      "promotion": 0,
+      "discount": 52,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Removal of surgically implanted material from posterior segment of eye",
+      "category_id": 1,
+      "price": 129,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "01/07/2017"
+    },
+    {
+      "id": 29,
+      "title": "Uninvited, The",
+      "isbn": "569321912-7",
+      "author_id": 10,
+      "publishing_house": "Ad Vocem",
+      "pages": 450,
+      "new": 0,
+      "promotion": 0,
+      "discount": 31,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.png/cc0000/ffffff"
+      },
+      "desc": "Aortography",
+      "category_id": 1,
+      "price": 135,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "02/28/2017"
+    },
+    {
+      "id": 30,
+      "title": "Singing Nun, The",
+      "isbn": "228317390-6",
+      "author_id": 7,
+      "publishing_house": "AMBER",
+      "pages": 175,
+      "new": 0,
+      "promotion": 0,
+      "discount": 91,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/cc0000/ffffff"
+      },
+      "desc": "Amputation through hand",
+      "category_id": 2,
+      "price": 105,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "02/19/2017"
+    },
+    {
+      "id": 31,
+      "title": "Last Mimzy, The",
+      "isbn": "055629548-X",
+      "author_id": 4,
+      "publishing_house": "3KM",
+      "pages": 302,
+      "new": 0,
+      "promotion": 0,
+      "discount": 78,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Refusion of dorsal and dorsolumbar spine, posterior column, posterior technique",
+      "category_id": 4,
+      "price": 190,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/23/2017"
+    },
+    {
+      "id": 32,
+      "title": "Reality",
+      "isbn": "633646728-7",
+      "author_id": 4,
+      "publishing_house": "BGW",
+      "pages": 429,
+      "new": 0,
+      "promotion": 0,
+      "discount": 73,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Insertion of tissue expander",
+      "category_id": 2,
+      "price": 200,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "05/14/2017"
+    },
+    {
+      "id": 33,
+      "title": "Wend Kuuni (a.k.a. God's Gift)",
+      "isbn": "103559385-8",
+      "author_id": 5,
+      "publishing_house": "BGW",
+      "pages": 429,
+      "new": 0,
+      "promotion": 0,
+      "discount": 12,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
+      },
+      "desc": "Application of external fixator device, scapula, clavicle, and thorax [ribs and sternum]",
+      "category_id": 5,
+      "price": 106,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "10/02/2017"
+    },
+    {
+      "id": 34,
+      "title": "Friday After Next",
+      "isbn": "628979682-8",
+      "author_id": 10,
+      "publishing_house": "3KM",
+      "pages": 428,
+      "new": 0,
+      "promotion": 0,
+      "discount": 81,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
+      },
+      "desc": "Other diagnostic procedures on blood vessels",
+      "category_id": 3,
+      "price": 157,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "12/19/2016"
+    },
+    {
+      "id": 35,
+      "title": "Ambush Trail",
+      "isbn": "978254189-3",
+      "author_id": 9,
+      "publishing_house": "BGW",
+      "pages": 324,
+      "new": 0,
+      "promotion": 0,
+      "discount": 64,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Destruction of chorioretinal lesion by cryotherapy",
+      "category_id": 1,
+      "price": 159,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "05/10/2017"
+    },
+    {
+      "id": 36,
+      "title": "Willard",
+      "isbn": "695548507-5",
+      "author_id": 5,
+      "publishing_house": "Betters",
+      "pages": 231,
+      "new": 0,
+      "promotion": 0,
+      "discount": 98,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Other incision of perirenal or periureteral tissue",
+      "category_id": 1,
+      "price": 175,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "09/23/2017"
+    },
+    {
+      "id": 37,
+      "title": "Rains of Ranchipur, The",
+      "isbn": "978465545-4",
+      "author_id": 5,
+      "publishing_house": "Ad Vocem",
+      "pages": 304,
+      "new": 0,
+      "promotion": 0,
+      "discount": 77,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Other skeletal traction",
+      "category_id": 1,
+      "price": 50,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "10/16/2016"
+    },
+    {
+      "id": 38,
+      "title": "Shadows of Liberty ",
+      "isbn": "886873391-9",
+      "author_id": 9,
+      "publishing_house": "Wimaart",
+      "pages": 166,
+      "new": 0,
+      "promotion": 0,
+      "discount": 58,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
+      },
+      "desc": "Excision of semilunar cartilage of knee",
+      "category_id": 3,
+      "price": 95,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "12/27/2016"
+    },
+    {
+      "id": 39,
+      "title": "Ordet (Word, The)",
+      "isbn": "416170242-6",
+      "author_id": 4,
+      "publishing_house": "BGW",
+      "pages": 364,
+      "new": 0,
+      "promotion": 0,
+      "discount": 59,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/5fa2dd/ffffff"
+      },
+      "desc": "Symphysiotomy for horseshoe kidney",
+      "category_id": 4,
+      "price": 148,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "08/14/2017"
+    },
+    {
+      "id": 40,
+      "title": "Rendezvous",
+      "isbn": "232797909-9",
+      "author_id": 10,
+      "publishing_house": "BGW",
+      "pages": 283,
+      "new": 0,
+      "promotion": 0,
+      "discount": 91,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/dddddd/000000",
+        "big": "http://dummyimage.com/800x933.jpg/ff4444/ffffff"
+      },
+      "desc": "Uterine artery embolization [UAE] with coils",
+      "category_id": 3,
+      "price": 98,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/25/2017"
+    },
+    {
+      "id": 41,
+      "title": "Bad Lieutenant: Port of Call New Orleans",
+      "isbn": "462659138-8",
+      "author_id": 8,
+      "publishing_house": "Betters",
+      "pages": 371,
+      "new": 0,
+      "promotion": 0,
+      "discount": 16,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.png/ff4444/ffffff"
+      },
+      "desc": "Other and open repair of diaphragmatic hernia, with thoracic approach",
+      "category_id": 3,
+      "price": 111,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "10/08/2016"
+    },
+    {
+      "id": 42,
+      "title": "Wild Man Blues",
+      "isbn": "347594780-3",
+      "author_id": 9,
+      "publishing_house": "Betters",
+      "pages": 343,
+      "new": 0,
+      "promotion": 0,
+      "discount": 57,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Repair of rupture of eyeball",
+      "category_id": 4,
+      "price": 85,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "02/25/2017"
+    },
+    {
+      "id": 43,
+      "title": "Generation Kill",
+      "isbn": "992431708-4",
+      "author_id": 1,
+      "publishing_house": "Betters",
+      "pages": 322,
+      "new": 0,
+      "promotion": 0,
+      "discount": 77,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Excision or destruction of lesion of sclera",
+      "category_id": 1,
+      "price": 158,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/06/2017"
+    },
+    {
+      "id": 44,
+      "title": "Jungle de Ikou (Jungre de Ikou)",
+      "isbn": "047337368-8",
+      "author_id": 5,
+      "publishing_house": "BGW",
+      "pages": 258,
+      "new": 0,
+      "promotion": 0,
+      "discount": 43,
+      "images": {
+        "small": "http://dummyimage.com/300x350.bmp/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Extracorporeal hepatic assistance",
+      "category_id": 5,
+      "price": 55,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "09/02/2017"
+    },
+    {
+      "id": 45,
+      "title": "Breakfast with Scot",
+      "isbn": "087949601-0",
+      "author_id": 1,
+      "publishing_house": "Wimaart",
+      "pages": 257,
+      "new": 0,
+      "promotion": 0,
+      "discount": 5,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/cc0000/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/cc0000/ffffff"
+      },
+      "desc": "Open biopsy of bladder",
+      "category_id": 2,
+      "price": 110,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "07/18/2017"
+    },
+    {
+      "id": 46,
+      "title": "Death of a Bureaucrat (La muerte de un burócrata)",
+      "isbn": "180679814-X",
+      "author_id": 2,
+      "publishing_house": "Ad Vocem",
+      "pages": 114,
+      "new": 0,
+      "promotion": 0,
+      "discount": 89,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.bmp/dddddd/000000"
+      },
+      "desc": "Insertion of choledochohepatic tube for decompression",
+      "category_id": 4,
+      "price": 83,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "09/28/2017"
+    },
+    {
+      "id": 47,
+      "title": "Super Hero Party Clown",
+      "isbn": "989256764-1",
+      "author_id": 2,
+      "publishing_house": "3KM",
+      "pages": 253,
+      "new": 0,
+      "promotion": 0,
+      "discount": 6,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Local perfusion of kidney",
+      "category_id": 2,
+      "price": 78,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "06/10/2017"
+    },
+    {
+      "id": 48,
+      "title": "Joker",
+      "isbn": "297391022-6",
+      "author_id": 6,
+      "publishing_house": "Betters",
+      "pages": 305,
+      "new": 0,
+      "promotion": 0,
+      "discount": 84,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/dddddd/000000"
+      },
+      "desc": "Localized perfusion of liver",
+      "category_id": 5,
+      "price": 89,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "10/19/2016"
+    },
+    {
+      "id": 49,
+      "title": "Posto, Il",
+      "isbn": "734930145-6",
+      "author_id": 5,
+      "publishing_house": "AMBER",
+      "pages": 444,
+      "new": 0,
+      "promotion": 0,
+      "discount": 23,
+      "images": {
+        "small": "http://dummyimage.com/300x350.jpg/ff4444/ffffff",
+        "big": "http://dummyimage.com/800x933.png/dddddd/000000"
+      },
+      "desc": "Endoscopic excision or destruction of lesion or tissue of pancreatic duct",
+      "category_id": 5,
+      "price": 115,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "11/12/2016"
+    },
+    {
+      "id": 50,
+      "title": "Open Windows",
+      "isbn": "762255494-4",
+      "author_id": 6,
+      "publishing_house": "Wimaart",
+      "pages": 359,
+      "new": 0,
+      "promotion": 0,
+      "discount": 20,
+      "images": {
+        "small": "http://dummyimage.com/300x350.png/5fa2dd/ffffff",
+        "big": "http://dummyimage.com/800x933.jpg/5fa2dd/ffffff"
+      },
+      "desc": "Fat graft to breast",
+      "category_id": 2,
+      "price": 197,
+      "quantity": 10,
+      "available": 1,
+      "release_date": "11/01/2016"
+    }
+  ]
 }

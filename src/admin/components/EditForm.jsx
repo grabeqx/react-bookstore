@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { InputForm } from '../containers/EditFormContainer'
+import { InputForm } from '../containers/EditFormContainer';
+import { save } from '../actions/ApiActionsCreator';
 
 class EditForm extends React.Component {
     constructor(props) {
@@ -27,6 +28,7 @@ class EditForm extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
+        this.props.save(this.state, `save${this.props.dataType.charAt(0).toUpperCase() + this.props.dataType.slice(1)}`);
     }
 
     render() {
@@ -49,4 +51,4 @@ class EditForm extends React.Component {
     }
 }
 
-export default EditForm;
+export default connect(null, { save })(EditForm);

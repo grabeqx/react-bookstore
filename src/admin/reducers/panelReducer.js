@@ -9,6 +9,8 @@ const panelReducer = (state = Map({
         case API_CONSTANTS.GET_BOOKS_FAIL:
         case API_CONSTANTS.GET_BOOK_FAIL:
             return state.set('errors', state.get('errors').push(action.payload));
+        case API_CONSTANTS.SAVE_SUCCESS:
+            return state;
         default:
             return state;
     }

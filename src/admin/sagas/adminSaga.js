@@ -57,6 +57,15 @@ function* getAuthor(action) {
     }
 }
 
+function* save(action) {
+    try {
+        const info = yield call(BookApi[action.payload.dataType], action.payload.data);
+        yield put({type: API_CONSTANTS.SAVE_SUCCESS, payload: info});
+    } catch(e) {
+        yield put({type: API_CONSTANTS.SAVE_FAIL, payload: e.message});
+    }
+}
+
 function* adminSaga() {
     yield takeLatest(API_CONSTANTS.GET_BOOKS, getBooks);
     yield takeLatest(API_CONSTANTS.GET_BOOK, getBook);
@@ -64,6 +73,7 @@ function* adminSaga() {
     yield takeLatest(API_CONSTANTS.GET_CATEGORY, getCategory);
     yield takeLatest(API_CONSTANTS.GET_AUTHORS, getAuthors);
     yield takeLatest(API_CONSTANTS.GET_AUTHOR, getAuthor);
+    yield takeLatest(API_CONSTANTS.SAVE, save);
 }
 
 export default adminSaga;

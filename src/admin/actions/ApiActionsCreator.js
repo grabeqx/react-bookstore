@@ -45,3 +45,12 @@ export function getAuthor(id) {
         }
     }
 }
+export function save(data, dataType) {
+    return {
+        type: API_CONSTANTS.SAVE,
+        payload: {
+            data,
+            dataType
+        }
+    }
+}

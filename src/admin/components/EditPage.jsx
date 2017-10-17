@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router';
 import EditFormContainer from '../containers/EditFormContainer';
 import EditForm from './EditForm';
 
+
 const EditPageComponent = (dataType, getDataMethod) => {
 
     const mapStateToProps = (state) => {
@@ -43,6 +44,7 @@ const EditPageComponent = (dataType, getDataMethod) => {
                             <EditForm 
                                 item={this.state.item} 
                                 type="Edit" 
+                                dataType={dataType}
                                 disabledItems={this.state.disabledItems} 
                                 textareas={this.state.textareas}
                             /> 

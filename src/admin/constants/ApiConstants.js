@@ -16,7 +16,10 @@ const API_CONSTANTS = {
     GET_AUTHORS_FAIL: Symbol('GET_AUTHORS_FAIL'),
     GET_AUTHOR: Symbol('GET_AUTHOR'),
     GET_AUTHOR_SUCCESS: Symbol('GET_AUTHOR_SUCCESS'),
-    GET_AUTHOR_FAIL: Symbol('GET_AUTHOR_FAIL')
+    GET_AUTHOR_FAIL: Symbol('GET_AUTHOR_FAIL'),
+    SAVE: Symbol('SAVE'),
+    SAVE_SUCCESS: Symbol('SAVE'),
+    SAVE_FAIL: Symbol('SAVE')
 }
 
 export default API_CONSTANTS;
