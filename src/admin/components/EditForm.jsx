@@ -8,6 +8,7 @@ class EditForm extends React.Component {
         super(props);
         this.state = this.props.item;
         this.handleInput = this.handleInput.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleInput(e) {
@@ -24,9 +25,13 @@ class EditForm extends React.Component {
         }
     }
 
+    handleSubmit(e) {
+        e.preventDefault();
+    }
+
     render() {
         return (
-            <span>
+            <form onSubmit={this.handleSubmit}>
                 {Object.keys(this.state).map((key, index) => (
                     <InputForm 
                         type={this.props.textareas.findIndex((item) => (item == key)) ? "text" : "textarea"}
@@ -39,7 +44,7 @@ class EditForm extends React.Component {
                     />
                 ))}
                 <InputForm type="submit" value={this.props.type} button />
-            </span>
+            </form>
         )
     }
 }
