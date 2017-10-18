@@ -52,7 +52,7 @@
     },
     {
       "id": 3,
-      "name": "History"
+      "name": "History1"
     },
     {
       "id": 4,
@@ -66,7 +66,7 @@
   "books": [
     {
       "id": 1,
-      "title": "A Coming-Out Party123",
+      "title": "A Coming-Out Party132",
       "isbn": "055629911-6",
       "author_id": 4,
       "publishing_house": "Wimaart",
@@ -108,7 +108,7 @@
     },
     {
       "id": 3,
-      "title": "Open Season",
+      "title": "Open Season123",
       "isbn": "441825402-1",
       "author_id": 7,
       "publishing_house": "Betters",
@@ -675,7 +675,7 @@
     },
     {
       "id": 30,
-      "title": "Singing Nun, The",
+      "title": "Singing Nun, The test",
       "isbn": "228317390-6",
       "author_id": 7,
       "publishing_house": "AMBER",

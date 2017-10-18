@@ -20,7 +20,7 @@ const BookApi = {
 
     saveBook: function(data) {
         return axios.put(`http://localhost:3001/books/${data.id}`, data)
-            .then(response => response.data)
+            .then(response => 'Saved')
             .catch(reason  => {
                 throw reason;
             })
@@ -28,7 +28,7 @@ const BookApi = {
 
     saveCategory: function(data) {
         return axios.put(`http://localhost:3001/categories/${data.id}`, data)
-            .then(response => response.data)
+            .then(response => 'Saved')
             .catch(reason  => {
                 throw reason;
             })
@@ -36,7 +36,7 @@ const BookApi = {
 
     saveAuthor: function(data) {
         return axios.put(`http://localhost:3001/authors/${data.id}`, data)
-            .then(response => response.data)
+            .then(response => 'Saved')
             .catch(reason  => {
                 throw reason;
             })

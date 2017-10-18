@@ -20,7 +20,8 @@ const DataListComponent = function(itemType, itemsType, getItemAction, getItemsA
             constructor(props) {
                 super(props);
                 this.state = {
-                    columns: ADMIN_CONSTANTS[itemsType]
+                    columns: ADMIN_CONSTANTS[itemsType],
+                    items: this.props.items
                 }
             }
         
@@ -28,10 +29,16 @@ const DataListComponent = function(itemType, itemsType, getItemAction, getItemsA
                 this.props.getItemsAction();
             }
         
+            componentWillReceiveProps(nextProps) {
+                this.setState({
+                    items: nextProps.items
+                })
+            }
+
             render() {
                 return (
                     <Switch>
-                        <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.props.items)} />
+                        <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.state.items)} />
                         <Route path={`${this.props.match.path}edit/:id`} component={EditPageComponent(itemType, this.props.getItemAction)} />
                     </Switch>
                 )
