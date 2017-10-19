@@ -12,7 +12,7 @@ const DataListContainer = (props) => {
             </div>
             <div className="col-sm-12">
                 <div className="d-flex justify-content-end mb-3">
-                    <AddButton />
+                    <AddButton itemType={props.itemType}/>
                 </div>
                 <List {...props} />
             </div>

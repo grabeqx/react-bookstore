@@ -1,5 +1,5 @@
 import API_CONSTANTS from '../constants/ApiConstants';
-import { Map } from 'immutable';
+import { Map, List } from 'immutable';
 
 
 const bookStoreReducer = (state = Map({

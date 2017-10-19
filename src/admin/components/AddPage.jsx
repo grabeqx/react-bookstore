@@ -3,37 +3,35 @@ import { connect } from 'react-redux';
 
 import EditFormContainer from '../containers/EditFormContainer';
 import EditForm from './EditForm';
+import DataStructures from '../constants/DataStructures';
 
+const AddPageComponent = (itemsType) => {
 
-const EditPageComponent = (dataType, getDataMethod) => {
-
-    const mapStateToProps = (state) => {
+    const mapStateToProps = function(state) {
         return {
-            item: state.bookStore.get(dataType)
+            lastID: state.bookStore.get(itemsType)[state.bookStore.get(itemsType).length - 1].id
         }
-    }
+    }    
 
     return connect(mapStateToProps, null)(
-        class EditPage extends React.Component {
+        class AddPage extends React.Component {
             constructor(props) {
                 super(props);
                 this.state = {
-                    title: 'Edit',
-                    id: parseInt(this.props.match.params.id),
-                    item: {},
+                    title: 'Add',
+                    id: this.props.lastID + 1,
+                    item: DataStructures[this.props.location.state],
                     disabledItems: ['id'],
                     textareas: ['desc']
                 }
             }
         
-            componentWillReceiveProps(nextProps) {
-                this.setState({
-                    item: nextProps.item
-                })
-            }
-        
             componentDidMount() {
-                getDataMethod(this.state.id);
+                this.setState({
+                    item: Object.assign({}, this.state.item, {
+                        id: this.state.id
+                    })
+                })
             }
         
             render() {
@@ -42,9 +40,9 @@ const EditPageComponent = (dataType, getDataMethod) => {
                         {this.state.item.id ? 
                             <EditForm 
                                 item={this.state.item} 
-                                type="Edit"
-                                method="edit"
-                                dataType={dataType}
+                                type="Add" 
+                                method="add"
+                                dataType={this.props.location.state}
                                 disabledItems={this.state.disabledItems} 
                                 textareas={this.state.textareas}
                             /> 
@@ -56,4 +54,4 @@ const EditPageComponent = (dataType, getDataMethod) => {
     )
 }
 
-export default EditPageComponent;
+export default AddPageComponent;

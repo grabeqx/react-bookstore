@@ -6,6 +6,7 @@ import ADMIN_CONSTANTS from '../constants/AdminConstants';
 import RouteDefaultListPage from './RouteDefaultListPage';
 import DataListContainer from '../containers/DataListContainer';
 import EditPageComponent from './EditPage';
+import AddPageComponent from './AddPage';
 
 const DataListComponent = function(itemType, itemsType, getItemAction, getItemsAction, columns) {
 
@@ -38,8 +39,9 @@ const DataListComponent = function(itemType, itemsType, getItemAction, getItemsA
             render() {
                 return (
                     <Switch>
-                        <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.state.items)} />
+                        <Route exact path={this.props.match.path} render={RouteDefaultListPage(DataListContainer, this.state.columns, this.state.items, itemType)} />
                         <Route path={`${this.props.match.path}edit/:id`} component={EditPageComponent(itemType, this.props.getItemAction)} />
+                        <Route path={`${this.props.match.path}add`} component={AddPageComponent(itemsType)} />
                     </Switch>
                 )
             }

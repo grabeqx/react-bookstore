@@ -28,7 +28,7 @@ class EditForm extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        this.props.save(this.state, `save${this.props.dataType.charAt(0).toUpperCase() + this.props.dataType.slice(1)}`);
+        this.props.save(this.state, `${this.props.method}${this.props.dataType.charAt(0).toUpperCase() + this.props.dataType.slice(1)}`);
     }
 
     render() {
