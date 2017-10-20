@@ -15,6 +15,9 @@ const panelReducer = (state = Map({
         case API_CONSTANTS.GET_CATEGORY_FAIL:
             return state.set('messages', state.get('messages').push(action.payload));
         case API_CONSTANTS.SAVE_SUCCESS:
+        case API_CONSTANTS.SAVE_FAIL:
+        case API_CONSTANTS.DELETE_SUCCESS:
+        case API_CONSTANTS.DELETE_FAIL:
             return state.set('messages', state.get('messages').push(action.payload));
         case ADMIN_CONSTANTS.REMOVE_MESSAGE:
             return state.set('messages', state.get('messages').splice(action.payload, 1));

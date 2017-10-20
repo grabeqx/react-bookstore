@@ -63,6 +63,38 @@ const BookApi = {
             .catch(reason  => {
                 throw reason;
             })
+    },
+    deleteBook: function(id) {
+        return axios.delete(`http://localhost:3001/books/${id}`)
+            .then(response => ({
+                text: 'Deleted',
+                dataType: 'books'
+            }))
+            .catch(reason  => {
+                throw reason;
+            })
+    },
+
+    deleteCategory: function(id) {
+        return axios.delete(`http://localhost:3001/categories/${id}`)
+            .then(response => ({
+                text: 'Deleted',
+                dataType: 'categories'
+            }))
+            .catch(reason  => {
+                throw reason;
+            })
+    },
+
+    deleteAuthor: function(id) {
+        return axios.delete(`http://localhost:3001/authors/${id}`)
+            .then(response => ({
+                text: 'Deleted',
+                dataType: 'authors'
+            }))
+            .catch(reason  => {
+                throw reason;
+            })
     }
 
 

@@ -54,3 +54,12 @@ export function save(data, dataType) {
         }
     }
 }
+export function deleteData(id, dataType) {
+    return {
+        type: API_CONSTANTS.DELETE,
+        payload: {
+            id,
+            dataType
+        }
+    }
+}

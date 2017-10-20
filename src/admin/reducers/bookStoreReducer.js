@@ -23,6 +23,12 @@ const bookStoreReducer = (state = Map({
             return state.set('authors', [...action.payload]);
         case API_CONSTANTS.GET_AUTHOR_SUCCESS:
             return state.set('author', action.payload);
+        case API_CONSTANTS.DELETE_SUCCESS: 
+            let index = state.get(action.payload.dataType).findIndex((item) => item.id === action.payload.id);
+            return state.set(action.payload.dataType, [
+                ...state.get(action.payload.dataType).slice(0, index),
+                ...state.get(action.payload.dataType).slice(index + 1)
+            ]);
         default:
             return state;
     }

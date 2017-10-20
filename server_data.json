@@ -39,10 +39,6 @@
     {
       "id": 10,
       "name": "Tove Carlyle"
-    },
-    {
-      "id": 11,
-      "name": "Test"
     }
   ],
   "categories": [
@@ -65,10 +61,6 @@
     {
       "id": 5,
       "name": "Other"
-    },
-    {
-      "id": 6,
-      "name": "Test"
     }
   ],
   "books": [
@@ -1121,27 +1113,6 @@
       "quantity": 10,
       "available": 1,
       "release_date": "11/01/2016"
-    },
-    {
-      "id": 51,
-      "title": "Test",
-      "isbn": "123-123",
-      "author_id": "4",
-      "publishing_house": "Test",
-      "pages": "123",
-      "new": "1",
-      "promotion": "1",
-      "discount": "1",
-      "images": {
-        "small": "#",
-        "big": "#"
-      },
-      "desc": "This is a test",
-      "category_id": "1",
-      "price": "110",
-      "quantity": "10",
-      "available": "1",
-      "release_date": "20/12/2017"
     }
   ]
 }

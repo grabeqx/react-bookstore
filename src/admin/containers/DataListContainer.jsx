@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SearchInput from '../components/SearchInput';
-import List from './List';
+import List from '../components/List';
 import AddButton from './AddButton';
 
 const DataListContainer = (props) => {

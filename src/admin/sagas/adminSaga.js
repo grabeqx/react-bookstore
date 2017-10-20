@@ -66,6 +66,16 @@ function* save(action) {
     }
 }
 
+function* deleteData(action) {
+    try {
+        const info = yield call(BookApi[action.payload.dataType], action.payload.id);
+        yield put({type: API_CONSTANTS.DELETE_SUCCESS, payload: {type: 'positive', message: info.text, dataType: info.dataType, id: action.payload.id }});
+    } catch(e) {
+        yield put({type: API_CONSTANTS.DELETE_FAIL, payload: {type: 'negative', message: e.message}});
+    }
+}
+
+
 function* adminSaga() {
     yield takeLatest(API_CONSTANTS.GET_BOOKS, getBooks);
     yield takeLatest(API_CONSTANTS.GET_BOOK, getBook);
@@ -74,6 +84,7 @@ function* adminSaga() {
     yield takeLatest(API_CONSTANTS.GET_AUTHORS, getAuthors);
     yield takeLatest(API_CONSTANTS.GET_AUTHOR, getAuthor);
     yield takeLatest(API_CONSTANTS.SAVE, save);
+    yield takeLatest(API_CONSTANTS.DELETE, deleteData);
 }
 
 export default adminSaga;
