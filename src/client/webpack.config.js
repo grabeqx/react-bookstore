@@ -13,7 +13,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/dist'),
         filename: '[name].bundle.js',
-        publicPath: 'http://localhost:81/'
+        publicPath: 'http://localhost/'
     },
     resolve: {
         extensions : ['.js', '.jsx']
@@ -67,7 +67,7 @@ module.exports = {
     },
     devServer: {
         host: 'localhost',
-        port: 81,
+        port: 80,
         hot: true,
         historyApiFallback: true
     }
