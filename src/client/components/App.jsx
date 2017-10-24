@@ -1,11 +1,23 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        console.log(this.props.items);
+    }
 
-
-const App = () => {
-    return (
-        <h1>Client</h1>
-    )
+    render() {
+        return (
+            <h1>Client</h1>
+        )
+    }
 }
 
-export default App;
+const mapstateToProps = (state) => {
+    return {
+        items: state.cart.get('items')
+    }
+}
+
+export default connect(mapstateToProps, null)(App);
