@@ -1,7 +1,7 @@
 import { Map, List } from 'immutable';
 
 const cartReducer = (state = Map({
-    empty: ture,
+    empty: true,
     itemsCount: 0,
     items: List([])
 }), action) => {

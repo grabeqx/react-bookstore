@@ -2,7 +2,7 @@ import { Map, List } from 'immutable';
 
 const clientReducer = (state = Map({
     messages: List([]),
-    clientData: List([])
+    clientData: Map({})
 }), action) => {
 
     switch(action.type) {
