@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar';
 import Root from '../components/Root';
 import MessagesInformator from '../components/MessagesInformator';
 
-const RootContainer = (props) => {
+const Content = (props) => {
     return (
         <div className="container-fluid">
             <div className="row">
@@ -27,4 +27,4 @@ const RootContainer = (props) => {
     )
 }
 
-export default RootContainer;
+export default Content;
