@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
 
+import Home from './Home';
 import Content from '../containers/Content';
-import Home from '../containers/Home';
 import NavBar from '../containers/NavBar';
 import Footer from '../containers/Footer';
 

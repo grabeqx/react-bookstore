@@ -2,10 +2,10 @@ import React from 'react';
 
 
 
-const Content = () => {
+const Content = (props) => {
     return (
         <div>
-            Content
+            {props.children}
         </div>
     )
 }
