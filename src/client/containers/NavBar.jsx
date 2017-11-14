@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div>NavBar</div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <Link to="/">Home</Link>
+        </nav>
     )
 }
 
